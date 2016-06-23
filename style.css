@@ -11,12 +11,13 @@ a{
   color: inherit;
 }
 
-h1{
+a:hover{
+  color: #8ec5f7;
+}
 
-  color: rgba(255, 255, 255, 0.1);
-  background: url(http://apod.nasa.gov/apod/image/1606/PelicanNorthAmerica_Etcheverry_3232.jpg) no-repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+h1{
+  color: aliceblue;
+
 }
 
 .jumbotron{
