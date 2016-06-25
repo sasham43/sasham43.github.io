@@ -22,6 +22,9 @@ $(function(){
         case 'busLink':
           hoverText = 'MSP Transit Locator';
           break;
+        case 'nileLink':
+          hoverText = 'Nile of the North';
+          break;
         default:
           hoverText = '<br />';
       }
