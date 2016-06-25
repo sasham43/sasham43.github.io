@@ -16,6 +16,12 @@ $(function(){
         case 'inLink':
           hoverText = 'LinkedIn';
           break;
+        case 'dashboardLink':
+          hoverText = 'Daily Dashboard';
+          break;
+        case 'busLink':
+          hoverText = 'MSP Transit Locator';
+          break;
         default:
           hoverText = '<br />';
       }

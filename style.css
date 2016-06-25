@@ -60,3 +60,7 @@ h1{
 .hoverTextContainer{
   height: 30px;
 }
+
+.separator{
+  margin: 0 10px;
+}
