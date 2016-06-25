@@ -1,1 +1,3 @@
-console.log('app.js loaded.');
+$(function(){
+  console.log('jquery loaded.');
+});
