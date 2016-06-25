@@ -6,13 +6,26 @@ body{
   background-size: cover;
   color: aliceblue;
 
-  padding-top:35vh;
   height: 100vh;
 }
 
 /* Image Credit: Ezequiel Etcheverry
    ezequiel.etcheverry@yahoo.com
    Taken from NASA Astronomy Picture of the Day  */
+
+/* bigger screens */
+@media (min-width: 768px) {
+  body{
+    padding-top:290px;
+  }
+}
+
+/* smaller screens */
+@media (max-width: 768px) {
+   body{
+     padding-top: 100px;
+   }
+ }
 
 a{
   color: inherit;
