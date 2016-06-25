@@ -1,31 +1,36 @@
 $(function(){
 
-  var hoverText = '';
+  var hoverText = '<br />';
 
   $(".link > a").on("mouseover", function(){
     var linkID = $(this)[0].id;
 
-    switch (linkID) {
-      case 'mailLink':
-        hoverText = 'EMAIL';
-        break;
-      case 'gitLink':
-        hoverText = 'GITHUB';
-        break;
-      case 'inLink':
-        hoverText = 'LinkedIn';
-        break;
-      default:
-        hoverText = '<br />';
-    }
+    $(".hoverText").promise().done(function(){
+      switch (linkID) {
+        case 'mailLink':
+          hoverText = 'Email';
+          break;
+        case 'gitLink':
+          hoverText = 'GitHub';
+          break;
+        case 'inLink':
+          hoverText = 'LinkedIn';
+          break;
+        default:
+          hoverText = '<br />';
+      }
 
-    $(".hoverText").html(hoverText);
-    console.log('self hoverText:', linkID, hoverText);
+      $(".hoverText").html(hoverText).animate({opacity: 1}, 200);
+    });
   });
 
   $(".link > a").on("mouseleave", function(){
-    hoverText = '<br />';
-    $(".hoverText").html(hoverText);
+    $(".hoverText").animate({opacity:0}, 200);
+
+    $(".hoverText").promise().done(function(){
+      hoverText = '<br />';
+      $(".hoverText").html(hoverText);
+    });
   });
 
   console.log('jquery loaded.');

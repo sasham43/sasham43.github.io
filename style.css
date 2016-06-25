@@ -12,7 +12,7 @@ a{
 }
 
 a:hover{
-  color: #8ec5f7;
+  color: #bbb;
 }
 
 h1{
@@ -22,8 +22,21 @@ h1{
 
 .jumbotron{
   background-color: rgba(30, 30, 30, 0.5);
+
+  padding-bottom: 20px;
 }
 
 .link{
   text-align: center;
+}
+
+.hoverText{
+  color: #bbb;
+
+  text-align: center;
+  opacity: 0;
+}
+
+.hoverTextContainer{
+  height: 30px;
 }
