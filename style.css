@@ -1,11 +1,13 @@
 
 
 
-body{
+.background{
   background: url(http://apod.nasa.gov/apod/image/1606/PelicanNorthAmerica_Etcheverry_3232.jpg);
   background-size: cover;
   color: aliceblue;
-  font-family: "Avenir Next", "Helvetica", sans-serif;;
+  font-family: "Avenir Next", "Helvetica", sans-serif;
+
+  transition: all 0.5s ease-in-out;
 
   height: 100vh;
 }
@@ -16,14 +18,14 @@ body{
 
 /* bigger screens */
 @media (min-width: 768px) {
-  body{
+  .background{
     padding-top:290px;
   }
 }
 
 /* smaller screens */
 @media (max-width: 768px) {
-   body{
+   .background{
      padding-top: 100px;
    }
  }
@@ -38,7 +40,6 @@ a:hover{
 
 h1{
   color: aliceblue;
-
 }
 
 .jumbotron{
@@ -64,4 +65,13 @@ h1{
 
 .separator{
   margin: 0 10px;
+}
+
+.shuffleButton{
+  border: none;
+  background: rgba(0,0,0,0);
+}
+
+.shuffleButton:focus{
+  outline: none;
 }

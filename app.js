@@ -13,14 +13,15 @@ $(function(){
     }).done(function(data){
       console.log('ajax data:', data);
       apodData = data;
-      $("body").css({
+      $(".background").css({
         background: "url(" + apodData.hdurl + ")",
         backgroundSize: "cover"
       });
     });
   };
 
-  getAPOD();
+  $(".shuffleButton").on('click', getAPOD);
+  // getAPOD();
 
   // hover text
 
