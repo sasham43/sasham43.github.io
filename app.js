@@ -1,5 +1,29 @@
 $(function(){
 
+  // background change
+
+  var getAPOD = function(){
+    var apodBase = 'https://api.nasa.gov/planetary/apod?hd=true&api_key=';
+    var apodKey = 'vRkyBLgP6BandXIDG4D5Fr0Ppub3dUBToDPyotMR'; // get your own key at https://api.nasa.gov/index.html#apply-for-an-api-key
+    var apodData = {};
+
+    $.ajax({
+      method: 'GET',
+      url: apodBase + apodKey
+    }).done(function(data){
+      console.log('ajax data:', data);
+      apodData = data;
+      $("body").css({
+        background: "url(" + apodData.hdurl + ")",
+        backgroundSize: "cover"
+      });
+    });
+  };
+
+  getAPOD();
+
+  // hover text
+
   var hoverText = '<br />';
 
   $(".link > a").on("mouseover", function(){
