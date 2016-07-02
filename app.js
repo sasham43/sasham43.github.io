@@ -10,10 +10,12 @@ $(function(){
     var apodKey = 'vRkyBLgP6BandXIDG4D5Fr0Ppub3dUBToDPyotMR'; // get your own key at https://api.nasa.gov/index.html#apply-for-an-api-key
     var apodData = {};
 
-    $.ajax({
+    var $ajax = $.ajax({
       method: 'GET',
       url: apodBase + apodKey
-    }).done(function(data){
+    });
+
+    $ajax.done(function(data){
       console.log('ajax data:', data);
       apodData = data;
       $(".background").css({
