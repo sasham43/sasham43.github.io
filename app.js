@@ -3,7 +3,10 @@ $(function(){
   // background change
 
   var getAPOD = function(){
-    var apodBase = 'https://api.nasa.gov/planetary/apod?hd=true&api_key=';
+    var randomDateChance = chance.birthday({ year: chance.year({ min: 2014, max: 2015 }) });
+    var randomDate = moment(randomDateChance).format('YYYY-MM-DD');
+
+    var apodBase = 'https://api.nasa.gov/planetary/apod?hd=true&date=' + randomDate + '&api_key=';
     var apodKey = 'vRkyBLgP6BandXIDG4D5Fr0Ppub3dUBToDPyotMR'; // get your own key at https://api.nasa.gov/index.html#apply-for-an-api-key
     var apodData = {};
 
