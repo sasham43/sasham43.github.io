@@ -7,7 +7,7 @@
   color: aliceblue;
   font-family: "Avenir Next", "Helvetica", sans-serif;
 
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s 1s ease-in-out;
 
   height: 100vh;
 }
@@ -21,12 +21,20 @@
   .background{
     padding-top:290px;
   }
+
+  #shuffleButton{
+    opacity: 0;
+  }
 }
 
 /* smaller screens */
 @media (max-width: 768px) {
    .background{
      padding-top: 100px;
+   }
+
+   #shuffleButton{
+     opacity: 1;
    }
  }
 
@@ -36,6 +44,11 @@ a{
 
 a:hover{
   color: #bbb;
+}
+
+a:focus{
+  color: #bbb;
+  outline: none;
 }
 
 h1{
@@ -67,11 +80,20 @@ h1{
   margin: 0 10px;
 }
 
+.subtitle{
+  margin-top: 10px;
+}
+
 #shuffleButton{
   border: none;
   background: rgba(0,0,0,0);
+  transition: all 0.3s ease-in;
 }
 
 #shuffleButton:focus{
   outline: none;
+}
+
+#shuffleButton:hover{
+  color: #bbb;
 }

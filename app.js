@@ -2,9 +2,27 @@ $(function(){
 
   // background change
 
+  $(".container").on("mouseover", function(){
+    $("#shuffleButton").css({opacity: 1});
+  });
+
+  $(".container").on("mouseleave", function(){
+    $("#shuffleButton").css({opacity: 0});
+  });
+
+  var randomTitle = 'Developer';
+
+  var randomNumber = function(min, max) {
+  	return Math.floor(Math.random() * (1 + max - min) + min);
+  };
+
   var getAPOD = function(){
     var randomDateChance = chance.birthday({ year: chance.year({ min: 2014, max: 2015 }) });
     var randomDate = moment(randomDateChance).format('YYYY-MM-DD');
+
+    
+
+    $(".subtitle").html(randomTitle);
 
     var apodBase = 'https://api.nasa.gov/planetary/apod?hd=true&date=' + randomDate + '&api_key=';
     var apodKey = 'vRkyBLgP6BandXIDG4D5Fr0Ppub3dUBToDPyotMR'; // get your own key at https://api.nasa.gov/index.html#apply-for-an-api-key
