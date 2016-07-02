@@ -23,7 +23,7 @@ $(function(){
     });
   };
 
-  $(".shuffleButton").on('click', getAPOD);
+  $("#shuffleButton").on('click', getAPOD);
   // getAPOD();
 
   // hover text

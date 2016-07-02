@@ -67,11 +67,11 @@ h1{
   margin: 0 10px;
 }
 
-.shuffleButton{
+#shuffleButton{
   border: none;
   background: rgba(0,0,0,0);
 }
 
-.shuffleButton:focus{
+#shuffleButton:focus{
   outline: none;
 }
