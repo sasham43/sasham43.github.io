@@ -36,7 +36,7 @@ $(function(){
       });
 
       $ajax.fail(function(){
-        console.log('failed');
+        // console.log('failed');
       });
 
       var explanation;
