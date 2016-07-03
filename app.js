@@ -35,6 +35,10 @@ $(function(){
         backgroundSize: "cover"
       });
 
+      $ajax.fail(function(){
+        console.log('failed');
+      });
+
       var explanation;
       if(apodData.explanation){
         explanation = apodData.explanation;
