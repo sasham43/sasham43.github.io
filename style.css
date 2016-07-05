@@ -10,6 +10,7 @@
   transition: all 0.5s 1s ease-in-out;
 
   height: 100vh;
+  box-shadow: inset 0px 0px 50px 10px #333;
 }
 
 /* Image Credit: Ezequiel Etcheverry
