@@ -1,5 +1,13 @@
 $(function(){
 
+  // preload background?
+  var src = 'http://apod.nasa.gov/apod/image/1606/PelicanNorthAmerica_Etcheverry_3232.jpg';
+  var $img = $( '<img src="' + src + '">' );
+  $img.bind( 'load', function(){
+      $( '.background' ).css( 'background-image', 'url(' + src + ')' );
+  } );
+  if( $img[0].width ){ $img.trigger( 'load' ); }
+
   // background change
 
   $(".container").on("mouseover", function(){
