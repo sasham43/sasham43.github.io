@@ -7,7 +7,7 @@
     <image>
       <title>Toga In The Morning</title>
       <url>
-      http://66.media.tumblr.com/avatar_6f72d441caf2_128.png
+      http://sasha-kramer.com/tgim/TGIM_LOGO_big.png
       </url>
       <link>http://togainthemorning.tumblr.com/</link>
     </image>
@@ -29,9 +29,9 @@
       http://togainthemorning.tumblr.com/post/151105241253/tgim-episode-2
       </guid>
       <description>TGIM Episode 2</description>
-      <itunes:image href="http://66.media.tumblr.com/avatar_6f72d441caf2_128.png"/>
+      <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
       <pubDate>Thu, 29 Sep 2016 12:35:46 EDT</pubDate>
-      <enclosure url="https://archive.org/download/TGIM02MixedIntro/TGIM_02_mixed_intro.mp3" type="text/html; charset=UTF-8" length="0"/>
+      <enclosure url="https://archive.org/download/TGIM02MixedIntro/TGIM_02_mixed_intro.mp3" type="text/html; charset=UTF-8" length="1:42"/>
     </item>
   </channel>
 </rss>
