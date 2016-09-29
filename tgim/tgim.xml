@@ -20,7 +20,6 @@
     </itunes:category>
     <itunes:keywords>comedy, improv</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
-    <atom:link href="http://www.sasha-kramer.com/tgim/tgim.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TGIM Episode 2</title>
       <link>
