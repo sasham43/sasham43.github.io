@@ -21,89 +21,103 @@
     </itunes:category>
     <itunes:keywords>comedy, improv</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
-    <item>
-      <title>Episode 6: Pegasus Unwinged</title>
-      <link>
-      https://www.mixcloud.com/togainthemorning/episode-6-pegasus-unwinged
-      </link>
-      <guid>
-      https://www.mixcloud.com/togainthemorning/episode-6-pegasus-unwinged/
-      </guid>
-      <description>Sasha, Bjork and Grisha dive into the Rothfussverse and talk Kingkiller Chronicle theories.  Those who haven't had the pleasure of reading The Name of the Wind are advised to skip to the 25 minute mark and get the book ASAP.  The boys discuss motifs, layered storytelling and Hollywood science babble as they review the landmark film, Ninja Turtles Two: Out of the Shitter.  The mention of a badger on methamphetamine reminds our intrepid co-hosts of Redwall, and there is much rejoicing.</description>
-      <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
-      <itunes:author>Grisha and Sasha Kramer</itunes:author>
-      <pubDate>Mon, 10 Oct 2016 12:35:46 EDT</pubDate>
-      <enclosure url="https://archive.org/download/TGIM06Mixed/TGIM_06_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
-    </item>
-    <item>
-      <title>Episode 5: Indemnity</title>
-      <link>
-      https://www.mixcloud.com/togainthemorning/episode-5-indemnity/
-      </link>
-      <guid>
-      https://www.mixcloud.com/togainthemorning/episode-5-indemnity/
-      </guid>
-      <description>After a false start, Sasha and Grisha review Taken 3 (With Liam Neeson reprising his role as Steven Seagal), and discuss bagel-based policing and the latest incarnation of the Hardy Boys and their spymaster sidekick.</description>
-      <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
-      <itunes:author>Grisha and Sasha Kramer</itunes:author>
-      <pubDate>Thu, 29 Sep 2016 12:35:46 EDT</pubDate>
-      <enclosure url="https://archive.org/download/TGIM05MixedRough/TGIM_05_mixed_rough.mp3" type="text/html; charset=UTF-8" length="0"/>
-    </item>
-    <item>
-      <title>Episode Sam: The Golden Fleece</title>
-      <link>
-      https://www.mixcloud.com/togainthemorning/episode-sam-the-golden-fleece/
-      </link>
-      <guid>
-      https://www.mixcloud.com/togainthemorning/episode-sam-the-golden-fleece/
-      </guid>
-      <description>This episode features special guest Sam, who was visiting Sasha. Bjork, Sam, Sasha and Grisha review Stranger Things. Sam shares fun facts about nostrils.</description>
-      <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
-      <itunes:author>Grisha and Sasha Kramer</itunes:author>
-      <pubDate>Wed, 28 Sep 2016 12:35:46 EDT</pubDate>
-      <enclosure url="https://archive.org/download/tgim_episode_04/tgim_episode_04.m4a" type="text/html; charset=UTF-8" length="0"/>
-    </item>
-    <item>
-      <title>Episode 3: Redemption</title>
-      <link>
-      https://www.mixcloud.com/togainthemorning/episode-3-redemption/
-      </link>
-      <guid>
-      https://www.mixcloud.com/togainthemorning/episode-3-redemption/
-      </guid>
-      <description>Sasha, Bjork and Grisha discuss the film Jupiter Ascending. A lively showing from the Sex Robot Repair Brothers until Grisha has a little too much to drink.</description>
-      <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
-      <itunes:author>Grisha and Sasha Kramer</itunes:author>
-      <pubDate>Tue, 27 Sep 2016 12:35:46 EDT</pubDate>
-      <enclosure url="https://archive.org/download/TGIM03Mixed/TGIM_03_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
-    </item>
-    <item>
-      <title>Episode 2: Title</title>
-      <link>
-      https://www.mixcloud.com/togainthemorning/episode-2-title/
-      </link>
-      <guid>
-      https://www.mixcloud.com/togainthemorning/episode-2-title/
-      </guid>
-      <description>Sasha, Bjork and Grisha are joined by Sik and Sak the sex robot repair brothers for the first time. Bjork explains her origin story, spanning across dimensions and worlds. Sasha and Grisha review a film they haven't seen lately, and out John Woo as a physics denier</description>
-      <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
-      <itunes:author>Grisha and Sasha Kramer</itunes:author>
-      <pubDate>Mon, 26 Sep 2016 12:35:46 EDT</pubDate>
-      <enclosure url="https://archive.org/download/TGIM02MixedIntro/TGIM_02_mixed_intro.mp3" type="text/html; charset=UTF-8" length="0"/>
-    </item>
-    <item>
-      <title>Episode 1: Origins</title>
-      <link>
-      https://www.mixcloud.com/togainthemorning/episode-1-origins/
-      </link>
-      <guid>
-      https://www.mixcloud.com/togainthemorning/episode-1-origins/
-      </guid>
-      <description>Sasha, Bjork and Grisha begin their foray into the wild world of podcasting, their path fraught with dick jokes and gin. The boys review Batman vs. Superman: Dawn of Justice, and Bjork shares the dark secret behind what makes people from Iceland so nice</description>
-      <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
-      <itunes:author>Grisha and Sasha Kramer</itunes:author>
-      <pubDate>Sun, 25 Sep 2016 12:35:46 EDT</pubDate>
-      <enclosure url="https://archive.org/download/Podcast11_201609/Podcast%201%20(1).m4a" type="text/html; charset=UTF-8" length="0"/>
-    </item>
+      <item>
+        <title>Episode 7: Deus Pug Machina</title>
+        <link>
+        https://www.mixcloud.com/togainthemorning/episode-7-quest-for-justice/
+        </link>
+        <guid>
+        https://www.mixcloud.com/togainthemorning/episode-7-quest-for-justice/
+        </guid>
+        <description>Your intrepid co-hosts give a play by play on the most serious of all cavemen films, Quest for Fire.  This is followed by some solid investigative reporting into Snoke's origins and a slew of other topics.  Then, glory abounds as a clip from the show Street Pug: DA, Attorney at Law pits Street Pug against Wernor Herzog, who has been accused of baking the towns children into a pie for his latest film.</description>
+        <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
+        <itunes:author>Grisha and Sasha Kramer</itunes:author>
+        <pubDate>Wed, 26 Oct 2016 12:35:46 EDT</pubDate>
+        <enclosure url="https://archive.org/download/TGIM07Mixed/TGIM_07_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+      </item>
+      <item>
+        <title>Episode 6: Pegasus Unwinged</title>
+        <link>
+        https://www.mixcloud.com/togainthemorning/episode-6-pegasus-unwinged
+        </link>
+        <guid>
+        https://www.mixcloud.com/togainthemorning/episode-6-pegasus-unwinged/
+        </guid>
+        <description>Sasha, Bjork and Grisha dive into the Rothfussverse and talk Kingkiller Chronicle theories.  Those who haven't had the pleasure of reading The Name of the Wind are advised to skip to the 25 minute mark and get the book ASAP.  The boys discuss motifs, layered storytelling and Hollywood science babble as they review the landmark film, Ninja Turtles Two: Out of the Shitter.  The mention of a badger on methamphetamine reminds our intrepid co-hosts of Redwall, and there is much rejoicing.</description>
+        <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
+        <itunes:author>Grisha and Sasha Kramer</itunes:author>
+        <pubDate>Mon, 10 Oct 2016 12:35:46 EDT</pubDate>
+        <enclosure url="https://archive.org/download/TGIM06Mixed/TGIM_06_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+      </item>
+      <item>
+        <title>Episode 5: Indemnity</title>
+        <link>
+        https://www.mixcloud.com/togainthemorning/episode-5-indemnity/
+        </link>
+        <guid>
+        https://www.mixcloud.com/togainthemorning/episode-5-indemnity/
+        </guid>
+        <description>After a false start, Sasha and Grisha review Taken 3 (With Liam Neeson reprising his role as Steven Seagal), and discuss bagel-based policing and the latest incarnation of the Hardy Boys and their spymaster sidekick.</description>
+        <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
+        <itunes:author>Grisha and Sasha Kramer</itunes:author>
+        <pubDate>Thu, 29 Sep 2016 12:35:46 EDT</pubDate>
+        <enclosure url="https://archive.org/download/TGIM05MixedRough/TGIM_05_mixed_rough.mp3" type="text/html; charset=UTF-8" length="0"/>
+      </item>
+      <item>
+        <title>Episode Sam: The Golden Fleece</title>
+        <link>
+        https://www.mixcloud.com/togainthemorning/episode-sam-the-golden-fleece/
+        </link>
+        <guid>
+        https://www.mixcloud.com/togainthemorning/episode-sam-the-golden-fleece/
+        </guid>
+        <description>This episode features special guest Sam, who was visiting Sasha. Bjork, Sam, Sasha and Grisha review Stranger Things. Sam shares fun facts about nostrils.</description>
+        <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
+        <itunes:author>Grisha and Sasha Kramer</itunes:author>
+        <pubDate>Wed, 28 Sep 2016 12:35:46 EDT</pubDate>
+        <enclosure url="https://archive.org/download/tgim_episode_04/tgim_episode_04.m4a" type="text/html; charset=UTF-8" length="0"/>
+      </item>
+      <item>
+        <title>Episode 3: Redemption</title>
+        <link>
+        https://www.mixcloud.com/togainthemorning/episode-3-redemption/
+        </link>
+        <guid>
+        https://www.mixcloud.com/togainthemorning/episode-3-redemption/
+        </guid>
+        <description>Sasha, Bjork and Grisha discuss the film Jupiter Ascending. A lively showing from the Sex Robot Repair Brothers until Grisha has a little too much to drink.</description>
+        <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
+        <itunes:author>Grisha and Sasha Kramer</itunes:author>
+        <pubDate>Tue, 27 Sep 2016 12:35:46 EDT</pubDate>
+        <enclosure url="https://archive.org/download/TGIM03Mixed/TGIM_03_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+      </item>
+      <item>
+        <title>Episode 2: Title</title>
+        <link>
+        https://www.mixcloud.com/togainthemorning/episode-2-title/
+        </link>
+        <guid>
+        https://www.mixcloud.com/togainthemorning/episode-2-title/
+        </guid>
+        <description>Sasha, Bjork and Grisha are joined by Sik and Sak the sex robot repair brothers for the first time. Bjork explains her origin story, spanning across dimensions and worlds. Sasha and Grisha review a film they haven't seen lately, and out John Woo as a physics denier</description>
+        <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
+        <itunes:author>Grisha and Sasha Kramer</itunes:author>
+        <pubDate>Mon, 26 Sep 2016 12:35:46 EDT</pubDate>
+        <enclosure url="https://archive.org/download/TGIM02MixedIntro/TGIM_02_mixed_intro.mp3" type="text/html; charset=UTF-8" length="0"/>
+      </item>
+      <item>
+        <title>Episode 1: Origins</title>
+        <link>
+        https://www.mixcloud.com/togainthemorning/episode-1-origins/
+        </link>
+        <guid>
+        https://www.mixcloud.com/togainthemorning/episode-1-origins/
+        </guid>
+        <description>Sasha, Bjork and Grisha begin their foray into the wild world of podcasting, their path fraught with dick jokes and gin. The boys review Batman vs. Superman: Dawn of Justice, and Bjork shares the dark secret behind what makes people from Iceland so nice</description>
+        <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
+        <itunes:author>Grisha and Sasha Kramer</itunes:author>
+        <pubDate>Sun, 25 Sep 2016 12:35:46 EDT</pubDate>
+        <enclosure url="https://archive.org/download/Podcast11_201609/Podcast%201%20(1).m4a" type="text/html; charset=UTF-8" length="0"/>
+      </item>
   </channel>
 </rss>
