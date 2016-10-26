@@ -9,7 +9,7 @@
       <url>
       http://sasha-kramer.com/tgim/TGIM_LOGO_big.png
       </url>
-      <link>http://togainthemorning.tumblr.com/</link>
+      <link>https://www.mixcloud.com/togainthemorning</link>
     </image>
     <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
     <itunes:author>Grisha and Sasha Kramer</itunes:author>
@@ -33,7 +33,7 @@
         <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
         <itunes:author>Grisha and Sasha Kramer</itunes:author>
         <pubDate>Wed, 26 Oct 2016 12:35:46 EDT</pubDate>
-        <enclosure url="https://archive.org/download/TGIM07Mixed/TGIM_07_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+        <enclosure url="http://archive.org/download/TGIM07Mixed/TGIM_07_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
       </item>
       <item>
         <title>Episode 6: Pegasus Unwinged</title>
