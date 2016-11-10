@@ -3,7 +3,7 @@
     <title>Toga In The Morning</title>
     <link>https://www.mixcloud.com/togainthemorning</link>
     <language>en-us</language>
-    <description>Toga In The Morning is a podcast featuring two brothers who review movies, play improv games we invented, check in with the bandleader Bjork, and drink.</description>
+    <description>Toga In The Morning is a podcast featuring two brothers who review movies, drink, play improv games we invented, drink, check in with the bandleader Bjork, and drink.</description>
     <image>
       <title>Toga In The Morning</title>
       <url>
@@ -15,12 +15,26 @@
     <itunes:author>Grisha and Sasha Kramer</itunes:author>
     <itunes:owner>
     <itunes:name>Toga In The Morning</itunes:name>
-    <itunes:email>togainthemorning@email.com</itunes:email>
+    <itunes:email>togainthemorning@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:category text="Comedy">
     </itunes:category>
     <itunes:keywords>comedy, improv</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
+      <item>
+        <title>Episode 8: Point Mother Flipping Break</title>
+        <link>
+        https://www.mixcloud.com/togainthemorning/point-mother-flipping-break/
+        </link>
+        <guid>
+        https://www.mixcloud.com/togainthemorning/point-mother-flipping-break/
+        </guid>
+        <description>Your scrappy co-hosts review the seminal film and powerful bromance Point Break.  There are many feelings, twists and turns explored.  Grisha fails to sound intelligent when he mispronounces/forgets the name Spartans actually use, the Lacedaemonians.  A Spartan fairy tale is unpacked.  Street Pug DA and Wernor Herzog travel into the world of the Hardy Boys and fight crime with Bjork.  Or do they?</description>
+        <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
+        <itunes:author>Grisha and Sasha Kramer</itunes:author>
+        <pubDate>Wed, 9 Nov 2016 12:35:46 EDT</pubDate>
+        <enclosure url="https://archive.org/download/TGIM08Mixed/TGIM_08_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+      </item>
       <item>
         <title>Episode 7: Deus Pug Machina</title>
         <link>
