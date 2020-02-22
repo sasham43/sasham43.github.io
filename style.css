@@ -16,7 +16,7 @@
   position:absolute;
   z-index:-1;
 
-  transition: all 0.2s 1s ease-in-out;
+  transition: all 0.2s .5s ease-in-out;
 
   height: 100vh;
   width: 100vw;

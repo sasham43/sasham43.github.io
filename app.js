@@ -57,6 +57,8 @@ $(function(){
       }
 
       $("#explanation").html(explanation);
+
+      printASCII()
     });
   };
 
@@ -127,3 +129,84 @@ $(function(){
 
   console.log('jquery loaded.');
 });
+
+
+function printASCII(){
+    var art=`dHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHb
+    HHP%%#%%%%%%%%%%%%%%%%#%%%%%%%#%%VHH
+    HH%%%%%%%%%%#%v~~~~~~\%%%#%%%%%%%%HH
+    HH%%%%%#%%%%v'        ~~~~\%%%%%#%HH
+    HH%%#%%%%%%v'dHHb      a%%%#%%%%%%HH
+    HH%%%%%#%%v'dHHHA     :%%%%%%#%%%%HH
+    HH%%%#%%%v' VHHHHaadHHb:%#%%%%%%%%HH
+    HH%%%%%#v'   'VHHHHHHHHb:%%%%%#%%%HH
+    HH%#%%%v'      'VHHHHHHH:%%%#%%#%%HH
+    HH%%%%%'        dHHHHHHH:%%#%%%%%%HH
+    HH%%#%%        dHHHHHHHH:%%%%%%#%%HH
+    HH%%%%%       dHHHHHHHHH:%%#%%%%%%HH
+    HH#%%%%       VHHHHHHHHH:%%%%%#%%%HH
+    HH%%%%#   b    HHHHHHHHV:%%%#%%%%#HH
+    HH%%%%%   Hb   HHHHHHHV'%%%%%%%%%%HH
+    HH%%#%%   HH  dHHHHHHV'%%%#%%%%%%%HH
+    HH%#%%%   VHbdHHHHHHV'#%%%%%%%%#%%HH
+    HHb%%#%    VHHHHHHHV'%%%%%#%%#%%%%HH
+    HHHHHHHb    VHHHHHHH:%odHHHHHHbo%dHH
+    HHHHHHHHboodboooooodHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHH  Mr. Penguin: "Hello" HHHHHHHH
+    VHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHV`;
+
+    function getCharacters(art)
+    {
+    	var i = art.length;
+    	// used to track the time at which the letter should print regardless of the current i (which is the character position including whitespace)
+    	var i_letter = 0;
+    	var s = ''; // string of whitespace
+    	var characters = [];
+    	do
+    	{
+    		i = (i + 1) % art.length;
+    		var c = art[i];
+
+    		var isWhitespace = /\s/.test(c);
+    		if (isWhitespace)
+    		{
+    			s += c;
+    			continue; // don't print the whitespace yet
+    		}
+    		else
+    		{
+    			if (s.length > 0)
+    			{
+    				c = s + c; // be sure to include the character currently being parsed
+    				s = '';
+    			}
+
+    			i_letter = (i_letter + 1) % art.length;
+
+    			characters.push(c);
+    		}
+    	}
+    	while(i);
+
+    	return characters;
+    }
+
+    var characters = getCharacters(art);
+
+    var output = '';
+    function printCharacterByIndex(characters, index, delay)
+    {
+    	if (characters[index] === undefined) return;
+
+    	output += characters[index];
+    	console.clear();
+    	console.log(output)
+
+    	window.setTimeout(printCharacterByIndex.bind(null, characters, index + 1, delay), delay);
+    }
+
+    console.clear();
+    printCharacterByIndex(getCharacters(art), 0, 10);
+
+}
