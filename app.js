@@ -6,6 +6,8 @@ $(function(){
     $(".background").animate({opacity:1});
   });
 
+  printASCII()
+
   // background change
 
   $(".container").on("mouseover", function(){
@@ -57,8 +59,6 @@ $(function(){
       }
 
       $("#explanation").html(explanation);
-
-      printASCII()
     });
   };
 
