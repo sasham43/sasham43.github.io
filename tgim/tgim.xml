@@ -4,6 +4,8 @@
         <link>https://www.mixcloud.com/togainthemorning</link>
         <language>en-us</language>
         <description>Toga In The Morning is a podcast featuring two brothers who review movies, drink, play improv games we invented, drink, check in with the bandleader Bjork, and drink.</description>
+        <itunes:summary>Toga In The Morning is a podcast featuring two brothers who review movies, drink, play improv games we invented, drink, check in with the bandleader Bjork, and drink.</itunes:summary>
+        <itunes:subtitle>All the togas your morning can handle, guaranteed.</itunes:subtitle>
         <image>
             <title>Toga In The Morning</title>
             <url>
@@ -19,10 +21,29 @@
         </itunes:owner>
         <itunes:category text="Comedy">
         </itunes:category>
+        <itunes:subcategory text="Improv">
+        </itunes:subcategory>
         <itunes:keywords>comedy, improv</itunes:keywords>
         <itunes:explicit>yes</itunes:explicit>
         <item>
+            <title>Episode 403: Sorceress and Other Tangents</title>
+            <itunes:title>Episode 403: Sorceress and Other Tangents</itunes:title>
+            <link>
+                https://www.mixcloud.com/togainthemorning/tgim-403/
+            </link>
+            <guid>
+                https://www.mixcloud.com/togainthemorning/tgim-403/
+            </guid>
+            <description>The boys finally get to the movie we've all been waiting for: 1982's 1970s fantasy epic Sorceress.  There's a terrible goat man, a terrible goat man, bad ADR, a terrible goat man, and more.</description>
+            <itunes:summary>The boys finally get to the movie we've all been waiting for: 1982's 1970s fantasy epic Sorceress.  There's a terrible goat man, a terrible goat man, bad ADR, a terrible goat man, and more.</itunes:summary>
+            <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
+            <itunes:author>Grisha and Sasha Kramer</itunes:author>
+            <pubDate>Thu Mar 31, 2020 12:35:46 EDT</pubDate>
+            <enclosure url="https://archive.org/download/403mixed/403_mixed.mp3" type="text/html; charset=UTF-8" length="100"/>
+        </item>
+        <item>
             <title>Episode 402: Lando Seduces The Galaxy</title>
+            <itunes:title>Episode 402: Lando Seduces The Galaxy</itunes:title>
             <link>
                 https://www.mixcloud.com/sasha-kramer/402-lando-seduces-the-galaxy/
             </link>
@@ -30,13 +51,15 @@
                 https://www.mixcloud.com/sasha-kramer/402-lando-seduces-the-galaxy/
             </guid>
             <description>The boys are back to finish their epic-length review of the Rise of Skywalker.  Many tangents are explored, many chuckles are had as the boys drill deep, deep into the final movie in the Skywalker Sage.  Bjork is still MIA.</description>
+            <itunes:summary>The boys are back to finish their epic-length review of the Rise of Skywalker.  Many tangents are explored, many chuckles are had as the boys drill deep, deep into the final movie in the Skywalker Sage.  Bjork is still MIA.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Thu Feb 20, 2020 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/402mixed/402_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/402mixed/402_mixed.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 401: Rise of Toga In The Morning</title>
+            <itunes:title>Episode 401: Rise of Toga In The Morning</itunes:title>
             <link>
                 https://www.mixcloud.com/sasha-kramer/tgim-401-rise-of-toga-in-the-morning/
             </link>
@@ -44,13 +67,15 @@
                 https://www.mixcloud.com/sasha-kramer/tgim-401-rise-of-toga-in-the-morning/
             </guid>
             <description>Fresh off their wildly successful one-episode season, the boys are back in style as they dissect Star Wars Episode IX: Rise of Skywalker Returns! There is no meandering and they get straight to the point, pontificating to their own mad rhythms with a overabundance of finality, making this the definitive review of the most recent Star Wars release.  Part 1.</description>
+            <itunes:summary>Fresh off their wildly successful one-episode season, the boys are back in style as they dissect Star Wars Episode IX: Rise of Skywalker Returns! There is no meandering and they get straight to the point, pontificating to their own mad rhythms with a overabundance of finality, making this the definitive review of the most recent Star Wars release.  Part 1.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Tue Feb 4, 2020 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/tgim-401_MIXED/tgim-401_MIXED.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/tgim-401_MIXED/tgim-401_MIXED.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 301: Revenge of the Game of Thrones Strikes Back</title>
+            <itunes:title>Episode 301: Revenge of the Game of Thrones Strikes Back</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/s3-episode-1/
             </link>
@@ -58,13 +83,15 @@
                 https://www.mixcloud.com/togainthemorning/s3-episode-1/
             </guid>
             <description>The boys are back with a splash as they make podcast history by being the first podcast to reach their third season.  To celebrate, they're bringing back fan-favorite misanthrope Bruce Greenwood, who has a little bone to pick with the recent adaptation of Game of Thrones.  Will he and the boys work out their creative differences?  Will Bjork stop at nothing in her quixotic quest to conquer the world?  Sponsors include: Gin, Alan's Wrenches, and Johnson's Gas Station BPs.</description>
+            <itunes:summary>The boys are back with a splash as they make podcast history by being the first podcast to reach their third season.  To celebrate, they're bringing back fan-favorite misanthrope Bruce Greenwood, who has a little bone to pick with the recent adaptation of Game of Thrones.  Will he and the boys work out their creative differences?  Will Bjork stop at nothing in her quixotic quest to conquer the world?  Sponsors include: Gin, Alan's Wrenches, and Johnson's Gas Station BPs.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Thur, 30 May 3019 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/s3e1_v2_bounce/s3e1_v2_bounce.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/s3e1_v2_bounce/s3e1_v2_bounce.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 207: Babe 4: Thunderpig In Da Hood</title>
+            <itunes:title>Episode 207: Babe 4: Thunderpig In Da Hood</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/207-babe-4-thunderpig-in-da-hood/
             </link>
@@ -72,13 +99,15 @@
                 https://www.mixcloud.com/togainthemorning/207-babe-4-thunderpig-in-da-hood/
             </guid>
             <description>The boys get the show off to a cracking start with a rousing game of Bury the Banana, Dodge the Banana.  Then it's time to get down to business as the boys make a hard left from pugaliscious to pigaliscoius when they review the most avant garde entry to date in George Miller's Mad Max franchise, Babe 2: Pig in the City.  There is much rejoicing.</description>
+            <itunes:summary>The boys get the show off to a cracking start with a rousing game of Bury the Banana, Dodge the Banana.  Then it's time to get down to business as the boys make a hard left from pugaliscious to pigaliscoius when they review the most avant garde entry to date in George Miller's Mad Max franchise, Babe 2: Pig in the City.  There is much rejoicing.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Thur, 13 Sep 2018 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/tgim_207_full/tgim_207_full.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/tgim_207_full/tgim_207_full.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 206: A Man's Smell is His Soul, A Man's Conscience is His Castle</title>
+            <itunes:title>Episode 206: A Man's Smell is His Soul, A Man's Conscience is His Castle</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/206-a-mans-smell-is-his-soul-a-mans-conscience-is-his-castle/
             </link>
@@ -86,13 +115,15 @@
                 https://www.mixcloud.com/togainthemorning/206-a-mans-smell-is-his-soul-a-mans-conscience-is-his-castle/
             </guid>
             <description>The boys review the latest and greatest third movie in the smash hit Dragonheart franchise, Dragonheart 4: The Quest for the Heart(h)fire.  Drinks are made, drinks are drunk, drunks talk.  Bonus forensic filmography segment before the close.</description>
+            <itunes:summary>The boys review the latest and greatest third movie in the smash hit Dragonheart franchise, Dragonheart 4: The Quest for the Heart(h)fire.  Drinks are made, drinks are drunk, drunks talk.  Bonus forensic filmography segment before the close.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Wed, 21 Aug 2018 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/Episode206Final_201808/Episode%20206%20final.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/Episode206Final_201808/Episode%20206%20final.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 205: The Penultimate Bene Gesserit</title>
+            <itunes:title>Episode 205: The Penultimate Bene Gesserit</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/205-the-penultimate-bene-gesserit/
             </link>
@@ -100,13 +131,15 @@
                 https://www.mixcloud.com/togainthemorning/205-the-penultimate-bene-gesserit/
             </guid>
             <description>Toga In The Morning returns with down-home, off-the-cuff, relaxed introduction as the boys freestyle conversation like it's the podcasting X-Games.  Then, special guest Bruce Greenhorn appears on the program to promote his terrible reductionist version of Star Wars: The Last Jedi.  The boys travel to West Hollywood to record this train wreck.</description>
+            <itunes:summary>Toga In The Morning returns with down-home, off-the-cuff, relaxed introduction as the boys freestyle conversation like it's the podcasting X-Games.  Then, special guest Bruce Greenhorn appears on the program to promote his terrible reductionist version of Star Wars: The Last Jedi.  The boys travel to West Hollywood to record this train wreck.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Wed, 4 Jul 2018 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/TogaSeason205Final/toga%20season%20205%20final.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/TogaSeason205Final/toga%20season%20205%20final.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 204: Robot Shakedown Pt 2 Reloaded</title>
+            <itunes:title>Episode 204: Robot Shakedown Pt 2 Reloaded</itunes:title>
             <link>
                 https://www.mixcloud.com/upload/togainthemorning/204-robot-shakedown-pt-2-reloaded/complete/
             </link>
@@ -114,13 +147,15 @@
                 https://www.mixcloud.com/upload/togainthemorning/204-robot-shakedown-pt-2-reloaded/complete/
             </guid>
             <description>The boys go for broke with their review of Now You See Me 2: The See-ening.  Is Morgan Freeman the Ruff Monster's father?  This and many other questions answered.  Then, the boys are back in town as Werner Herzog and the irrespressible Street Pug return with the thrilling conclusion of their murder mystery.  Kirk Cameron still guest-stars as Brock Nelson, PI.</description>
+            <itunes:summary>The boys go for broke with their review of Now You See Me 2: The See-ening.  Is Morgan Freeman the Ruff Monster's father?  This and many other questions answered.  Then, the boys are back in town as Werner Herzog and the irrespressible Street Pug return with the thrilling conclusion of their murder mystery.  Kirk Cameron still guest-stars as Brock Nelson, PI.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Tue, 3 July 2018 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/Season2Episode4Final/season%202%20episode%204%20final.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/Season2Episode4Final/season%202%20episode%204%20final.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 203: Robot Shakedown Pt 1</title>
+            <itunes:title>Episode 203: Robot Shakedown Pt 1</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/203-robot-shakedown-pt-1/
             </link>
@@ -128,13 +163,15 @@
                 https://www.mixcloud.com/togainthemorning/203-robot-shakedown-pt-1/
             </guid>
             <description>Don't call it post-apocalyptic as the boys review Turbo Kid (sponsored by gnome-bats, probably).  Then, the sci-fi theme continues as Werner Herzog and his ever-present muse Street Pug investigate a mystery that cuts close to home.  Kirk Cameron guest-stars as Brock Nelson, PI.</description>
+            <itunes:summary>Don't call it post-apocalyptic as the boys review Turbo Kid (sponsored by gnome-bats, probably).  Then, the sci-fi theme continues as Werner Herzog and his ever-present muse Street Pug investigate a mystery that cuts close to home.  Kirk Cameron guest-stars as Brock Nelson, PI.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Sun, 13 May 2018 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/203EpisodeMp3Final/203%20Episode%20mp3%20final.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/203EpisodeMp3Final/203%20Episode%20mp3%20final.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 202: Last Jedi Strikes Back</title>
+            <itunes:title>Episode 202: Last Jedi Strikes Back</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/202/
             </link>
@@ -142,13 +179,15 @@
                 https://www.mixcloud.com/togainthemorning/202/
             </guid>
             <description>It's a special birthday edition of Toga in the Morning as the boys discuss birthdays and other dimensions with the birthday girl/android Bjork.  Next, the boys dive headfirst into Star Wars to discuss the nature of Porgs,  Boba Fett's qualities, and what our potential Patreon could be.  Bonus XXX: Return of Xander Cage content also included.</description>
+            <itunes:summary>It's a special birthday edition of Toga in the Morning as the boys discuss birthdays and other dimensions with the birthday girl/android Bjork.  Next, the boys dive headfirst into Star Wars to discuss the nature of Porgs,  Boba Fett's qualities, and what our potential Patreon could be.  Bonus XXX: Return of Xander Cage content also included.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Mon, 28 Mar 2018 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/togainthemorning_gmail_202/202.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/togainthemorning_gmail_202/202.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 201: 2 Toga 2 Morning</title>
+            <itunes:title>Episode 201: 2 Toga 2 Morning</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/201/
             </link>
@@ -156,13 +195,15 @@
                 https://www.mixcloud.com/togainthemorning/201/
             </guid>
             <description>The boys get Season 2 off to a bang as they review the James-Bond-inspired, Arnold-Schwarzenegger-starring, James-Cameron-directed action extravaganza that is True Lies.  They discuss the spiritual motives of the director, the changing nature of terrorism in a pre-9/11 world, and rank our favorite Pierces.  Plus, Bjork says some things!</description>
+            <itunes:summary>The boys get Season 2 off to a bang as they review the James-Bond-inspired, Arnold-Schwarzenegger-starring, James-Cameron-directed action extravaganza that is True Lies.  They discuss the spiritual motives of the director, the changing nature of terrorism in a pre-9/11 world, and rank our favorite Pierces.  Plus, Bjork says some things!</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Mon, 26 Feb 2018 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/201baffroomEdit/201baffroom%20edit.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/201baffroomEdit/201baffroom%20edit.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 14: The Orson Welles of Kung Fu</title>
+            <itunes:title>Episode 14: The Orson Welles of Kung Fu</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-14-the-orson-welles-of-kung-fu/
             </link>
@@ -170,13 +211,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-14-the-orson-welles-of-kung-fu/
             </guid>
             <description>In this episode, Bjork and your intrepid cohosts quickly avert a Bjorkbot related disaster, then talk about the Orson Wells of Kung Fu, Sensai Steven Seagal and his latest film trailers.  He thanks us for noticing.  Then, we dive into friend of the show Werner Herzog's amazing team up with master thespian Sir Nicolas Cage to bring us a gritty re-imagining of what Street Pug might look like without all the whimsy and pink sweaters,  in a review of Bad Lieutenant: Port of Call New Orleans.  We discuss the lizard symbolism, the lucky crack pipe, breakdancing souls, and touchdowns, not to mention new racial slurs, and one actor's ability to express nearly any emotion or concept with the phrase "Oh yeah".</description>
+            <itunes:summary>In this episode, Bjork and your intrepid cohosts quickly avert a Bjorkbot related disaster, then talk about the Orson Wells of Kung Fu, Sensai Steven Seagal and his latest film trailers.  He thanks us for noticing.  Then, we dive into friend of the show Werner Herzog's amazing team up with master thespian Sir Nicolas Cage to bring us a gritty re-imagining of what Street Pug might look like without all the whimsy and pink sweaters,  in a review of Bad Lieutenant: Port of Call New Orleans.  We discuss the lizard symbolism, the lucky crack pipe, breakdancing souls, and touchdowns, not to mention new racial slurs, and one actor's ability to express nearly any emotion or concept with the phrase "Oh yeah".</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Mon, 8 May 2017 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/tgim_14_mixed/tgim_14_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/tgim_14_mixed/tgim_14_mixed.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 13: Face Off: A Nicholas Cage Story</title>
+            <itunes:title>Episode 13: Face Off: A Nicholas Cage Story</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-13-face-off-a-nicholas-cage-story/
             </link>
@@ -184,13 +227,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-13-face-off-a-nicholas-cage-story/
             </guid>
             <description>In this episode, Bjork and your intrepid co-hosts review John Woo's Face Off, in which Nicholas Cage stars as both himself and John Travolta, to the delight of all.  We discuss prison budgets, as well as their choice of entertainment, and Nic Cage's favorite kind of sandwich. Then, we return once again to the world of Street Pug: DA, as our pugnacious hero along with Wernor Herzog and Bjork go on a seemingly innocent trip to get bagels, only to discover that sponsor Tommy Muttonchops non-nefarious mustache wax might not be so non-nefarious after all.</description>
+            <itunes:summary>In this episode, Bjork and your intrepid co-hosts review John Woo's Face Off, in which Nicholas Cage stars as both himself and John Travolta, to the delight of all.  We discuss prison budgets, as well as their choice of entertainment, and Nic Cage's favorite kind of sandwich. Then, we return once again to the world of Street Pug: DA, as our pugnacious hero along with Wernor Herzog and Bjork go on a seemingly innocent trip to get bagels, only to discover that sponsor Tommy Muttonchops non-nefarious mustache wax might not be so non-nefarious after all.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Tue, 28 Mar 2017 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/tgim_13-2_mixed_again/tgim_13-2_mixed_again.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/tgim_13-2_mixed_again/tgim_13-2_mixed_again.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 12: Steak Mittens</title>
+            <itunes:title>Episode 12: Steak Mittens</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-12-steak-mittens/
             </link>
@@ -198,13 +243,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-11-steak-mittens/
             </guid>
             <description>Bjork and your relatively humble co-hosts (one of them on the new "Too Many Manhattans" fad diet) review the masterpiece of cinema that is Grown Ups 2, the spiritual prequel to "Ouch My Balls". Then, we do our duty as Star Wars fans and engage in a new round of flinging theories at the wall to celebrate the release of the name of a movie.</description>
+            <itunes:summary>Bjork and your relatively humble co-hosts (one of them on the new "Too Many Manhattans" fad diet) review the masterpiece of cinema that is Grown Ups 2, the spiritual prequel to "Ouch My Balls". Then, we do our duty as Star Wars fans and engage in a new round of flinging theories at the wall to celebrate the release of the name of a movie.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Mon, 13 Feb 2017 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/tgim_12_mixed/tgim_12_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/tgim_12_mixed/tgim_12_mixed.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 11: The Case of the Pug Grog</title>
+            <itunes:title>Episode 11: The Case of the Pug Grog</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-11-the-case-of-the-pug-grog/
             </link>
@@ -212,13 +259,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-11-the-case-of-the-pug-grog/
             </guid>
             <description>Your intrepid co-hosts kick things off with some more Diesel Power as they talk trailers and discuss Furious 8: The Fate of the Furious.  Then, differences of opinion abound when we discuss Star Wars: Rogue One and talk the necessity (or lack thereof) of Chirrut Imwe.  Darth Vader's motives are questioned, and then we segue into a rousing, swashbuckling edition of Street Pug: DA, when a mysterious amulet is delivered to the detective office, leading the boys to a museum heist, one way or the other.</description>
+            <itunes:summary>Your intrepid co-hosts kick things off with some more Diesel Power as they talk trailers and discuss Furious 8: The Fate of the Furious.  Then, differences of opinion abound when we discuss Star Wars: Rogue One and talk the necessity (or lack thereof) of Chirrut Imwe.  Darth Vader's motives are questioned, and then we segue into a rousing, swashbuckling edition of Street Pug: DA, when a mysterious amulet is delivered to the detective office, leading the boys to a museum heist, one way or the other.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Thu, 12 Jan 2017 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/tgim_11_mixed/tgim_11_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/tgim_11_mixed/tgim_11_mixed.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 10: Jungle Wax</title>
+            <itunes:title>Episode 10: Jungle Wax</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-10-jungle-wax/
             </link>
@@ -226,13 +275,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-10-jungle-wax/
             </guid>
             <description>The co-hosts get Diesel powered when they review the trailer for the upcoming XXX film, and discuss the properties of Jungle Wax.  Then, hang on to your mullets, light up a smoke and keep your blade handy, as the boys take the time gondola back to the 80's and talk about the finer points of cooling in a review of Road House, featuring the animal magnetism of Patrick Swayze and a young Sam Elliot.  Some people write in complaining that they have fallen down while wearing Björk's slippery slippers.  Björk is unrepentant. Then your heroes sequel harder when they make up sequel names, and we have the rousing conclusion to Street Pug: DA's latest mystery, in which we discover the true animal nature of Jason Statham, and witness a creator and his creation clash.</description>
+            <itunes:summary>The co-hosts get Diesel powered when they review the trailer for the upcoming XXX film, and discuss the properties of Jungle Wax.  Then, hang on to your mullets, light up a smoke and keep your blade handy, as the boys take the time gondola back to the 80's and talk about the finer points of cooling in a review of Road House, featuring the animal magnetism of Patrick Swayze and a young Sam Elliot.  Some people write in complaining that they have fallen down while wearing Björk's slippery slippers.  Björk is unrepentant. Then your heroes sequel harder when they make up sequel names, and we have the rousing conclusion to Street Pug: DA's latest mystery, in which we discover the true animal nature of Jason Statham, and witness a creator and his creation clash.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Thu, 22 Dec 2016 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/tgim_10_mixed_done/tgim_10_mixed_done.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/tgim_10_mixed_done/tgim_10_mixed_done.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 9: Two Lines of Jodorowsky</title>
+            <itunes:title>Episode 9: Two Lines of Jodorowsky</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-9/
             </link>
@@ -240,13 +291,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-9/
             </guid>
             <description>Grisha and Sasha discuss Jodorowsky's Dune, a documentary about some madman who was thankfully prevented from making a 15 hour Dune film starring Mick Jagger, Salvador Dali, and Orson Welles.  We may find out what a "Jawa Punt" is, and there is much rejoicing over the fact that Donnie Yen will be doing Kung Fu on Stormtroopers.  Street Pug DA, Bjork, and Werner Herzog investigate a new mystery, and meet up with their chums, Chet and Biff, who have an interesting new hobby.</description>
+            <itunes:summary>Grisha and Sasha discuss Jodorowsky's Dune, a documentary about some madman who was thankfully prevented from making a 15 hour Dune film starring Mick Jagger, Salvador Dali, and Orson Welles.  We may find out what a "Jawa Punt" is, and there is much rejoicing over the fact that Donnie Yen will be doing Kung Fu on Stormtroopers.  Street Pug DA, Bjork, and Werner Herzog investigate a new mystery, and meet up with their chums, Chet and Biff, who have an interesting new hobby.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Thu, 8 Dec 2016 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/tgim_9andahalf_mixed/tgim_9andahalf_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/tgim_9andahalf_mixed/tgim_9andahalf_mixed.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 8: Point Mother Flipping Break</title>
+            <itunes:title>Episode 8: Point Mother Flipping Break</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/point-mother-flipping-break/
             </link>
@@ -254,13 +307,15 @@
                 https://www.mixcloud.com/togainthemorning/point-mother-flipping-break/
             </guid>
             <description>Your scrappy co-hosts review the seminal film and powerful bromance Point Break.  There are many feelings, twists and turns explored.  Grisha fails to sound intelligent when he mispronounces/forgets the name Spartans actually use, the Lacedaemonians.  A Spartan fairy tale is unpacked.  Street Pug DA and Wernor Herzog travel into the world of the Hardy Boys and fight crime with Bjork.  Or do they?</description>
+            <itunes:summary>Your scrappy co-hosts review the seminal film and powerful bromance Point Break.  There are many feelings, twists and turns explored.  Grisha fails to sound intelligent when he mispronounces/forgets the name Spartans actually use, the Lacedaemonians.  A Spartan fairy tale is unpacked.  Street Pug DA and Wernor Herzog travel into the world of the Hardy Boys and fight crime with Bjork.  Or do they?</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Wed, 9 Nov 2016 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/TGIM08Mixed/TGIM_08_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/TGIM08Mixed/TGIM_08_mixed.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 7: Deus Pug Machina</title>
+            <itunes:title>Episode 7: Deus Pug Machina</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-7-quest-for-justice/
             </link>
@@ -268,13 +323,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-7-quest-for-justice/
             </guid>
             <description>Your intrepid co-hosts give a play by play on the most serious of all cavemen films, Quest for Fire.  This is followed by some solid investigative reporting into Snoke's origins and a slew of other topics.  Then, glory abounds as a clip from the show Street Pug: DA, Attorney at Law pits Street Pug against Wernor Herzog, who has been accused of baking the towns children into a pie for his latest film.</description>
+            <itunes:summary>Your intrepid co-hosts give a play by play on the most serious of all cavemen films, Quest for Fire.  This is followed by some solid investigative reporting into Snoke's origins and a slew of other topics.  Then, glory abounds as a clip from the show Street Pug: DA, Attorney at Law pits Street Pug against Wernor Herzog, who has been accused of baking the towns children into a pie for his latest film.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Wed, 26 Oct 2016 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/TGIM07Mixed/TGIM_07_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/TGIM07Mixed/TGIM_07_mixed.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 6: Pegasus Unwinged</title>
+            <itunes:title>Episode 6: Pegasus Unwinged</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-6-pegasus-unwinged
             </link>
@@ -282,13 +339,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-6-pegasus-unwinged/
             </guid>
             <description>Sasha, Bjork and Grisha dive into the Rothfussverse and talk Kingkiller Chronicle theories.  Those who haven't had the pleasure of reading The Name of the Wind are advised to skip to the 25 minute mark and get the book ASAP.  The boys discuss motifs, layered storytelling and Hollywood science babble as they review the landmark film, Ninja Turtles Two: Out of the Shitter.  The mention of a badger on methamphetamine reminds our intrepid co-hosts of Redwall, and there is much rejoicing.</description>
+            <itunes:summary>Sasha, Bjork and Grisha dive into the Rothfussverse and talk Kingkiller Chronicle theories.  Those who haven't had the pleasure of reading The Name of the Wind are advised to skip to the 25 minute mark and get the book ASAP.  The boys discuss motifs, layered storytelling and Hollywood science babble as they review the landmark film, Ninja Turtles Two: Out of the Shitter.  The mention of a badger on methamphetamine reminds our intrepid co-hosts of Redwall, and there is much rejoicing.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Mon, 10 Oct 2016 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/TGIM06Mixed/TGIM_06_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/TGIM06Mixed/TGIM_06_mixed.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 5: Indemnity</title>
+            <itunes:title>Episode 5: Indemnity</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-5-indemnity/
             </link>
@@ -296,13 +355,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-5-indemnity/
             </guid>
             <description>After a false start, Sasha and Grisha review Taken 3 (With Liam Neeson reprising his role as Steven Seagal), and discuss bagel-based policing and the latest incarnation of the Hardy Boys and their spymaster sidekick.</description>
+            <itunes:summary>After a false start, Sasha and Grisha review Taken 3 (With Liam Neeson reprising his role as Steven Seagal), and discuss bagel-based policing and the latest incarnation of the Hardy Boys and their spymaster sidekick.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Thu, 29 Sep 2016 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/TGIM05MixedRough/TGIM_05_mixed_rough.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/TGIM05MixedRough/TGIM_05_mixed_rough.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode Sam: The Golden Fleece</title>
+            <itunes:title>Episode Sam: The Golden Fleece</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-sam-the-golden-fleece/
             </link>
@@ -310,13 +371,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-sam-the-golden-fleece/
             </guid>
             <description>This episode features special guest Sam, who was visiting Sasha. Bjork, Sam, Sasha and Grisha review Stranger Things. Sam shares fun facts about nostrils.</description>
+            <itunes:summary>This episode features special guest Sam, who was visiting Sasha. Bjork, Sam, Sasha and Grisha review Stranger Things. Sam shares fun facts about nostrils.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Wed, 28 Sep 2016 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/tgim_episode_04/tgim_episode_04.m4a" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/tgim_episode_04/tgim_episode_04.m4a" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 3: Redemption</title>
+            <itunes:title>Episode 3: Redemption</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-3-redemption/
             </link>
@@ -324,13 +387,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-3-redemption/
             </guid>
             <description>Sasha, Bjork and Grisha discuss the film Jupiter Ascending. A lively showing from the Sex Robot Repair Brothers until Grisha has a little too much to drink.</description>
+            <itunes:summary>Sasha, Bjork and Grisha discuss the film Jupiter Ascending. A lively showing from the Sex Robot Repair Brothers until Grisha has a little too much to drink.</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Tue, 27 Sep 2016 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/TGIM03Mixed/TGIM_03_mixed.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/TGIM03Mixed/TGIM_03_mixed.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 2: Title</title>
+            <itunes:title>Episode 2: Title</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-2-title/
             </link>
@@ -338,13 +403,15 @@
                 https://www.mixcloud.com/togainthemorning/episode-2-title/
             </guid>
             <description>Sasha, Bjork and Grisha are joined by Sik and Sak the sex robot repair brothers for the first time. Bjork explains her origin story, spanning across dimensions and worlds. Sasha and Grisha review a film they haven't seen lately, and out John Woo as a physics denier</description>
+            <itunes:summary>Sasha, Bjork and Grisha are joined by Sik and Sak the sex robot repair brothers for the first time. Bjork explains her origin story, spanning across dimensions and worlds. Sasha and Grisha review a film they haven't seen lately, and out John Woo as a physics denier</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Mon, 26 Sep 2016 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/TGIM02MixedIntro/TGIM_02_mixed_intro.mp3" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/TGIM02MixedIntro/TGIM_02_mixed_intro.mp3" type="text/html; charset=UTF-8" length="100"/>
         </item>
         <item>
             <title>Episode 1: Origins</title>
+            <itunes:title>Episode 1: Origins</itunes:title>
             <link>
                 https://www.mixcloud.com/togainthemorning/episode-1-origins/
             </link>
@@ -352,10 +419,11 @@
                 https://www.mixcloud.com/togainthemorning/episode-1-origins/
             </guid>
             <description>Sasha, Bjork and Grisha begin their foray into the wild world of podcasting, their path fraught with dick jokes and gin. The boys review Batman vs. Superman: Dawn of Justice, and Bjork shares the dark secret behind what makes people from Iceland so nice</description>
+            <itunes:summary>Sasha, Bjork and Grisha begin their foray into the wild world of podcasting, their path fraught with dick jokes and gin. The boys review Batman vs. Superman: Dawn of Justice, and Bjork shares the dark secret behind what makes people from Iceland so nice</itunes:summary>
             <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
             <itunes:author>Grisha and Sasha Kramer</itunes:author>
             <pubDate>Sun, 25 Sep 2016 12:35:46 EDT</pubDate>
-            <enclosure url="https://archive.org/download/Podcast11_201609/Podcast%201%20(1).m4a" type="text/html; charset=UTF-8" length="0"/>
+            <enclosure url="https://archive.org/download/Podcast11_201609/Podcast%201%20(1).m4a" type="text/html; charset=UTF-8" length="100"/>
         </item>
     </channel>
 </rss>
