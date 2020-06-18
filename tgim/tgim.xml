@@ -9,11 +9,11 @@
         <image>
             <title>Toga In The Morning</title>
             <url>
-                http://sasha-kramer.com/tgim/TGIM_LOGO_big.png
+                http://sasha-kramer.com/tgim/TGIM_Logo_new.JPG
             </url>
             <link>https://www.mixcloud.com/togainthemorning</link>
         </image>
-        <itunes:image href="http://sasha-kramer.com/tgim/TGIM_LOGO_big.png"/>
+        <itunes:image href="http://sasha-kramer.com/tgim/TGIM_Logo_new.JPG"/>
         <itunes:author>Grisha and Sasha Kramer</itunes:author>
         <itunes:owner>
             <itunes:name>Toga In The Morning</itunes:name>
@@ -25,6 +25,22 @@
         </itunes:subcategory>
         <itunes:keywords>comedy, improv</itunes:keywords>
         <itunes:explicit>yes</itunes:explicit>
+        <item>
+            <title>Episode 405: Hobbes versus Shaw</title>
+            <itunes:title>Episode 405: Hobbes versus Shaw</itunes:title>
+            <link>
+                https://www.mixcloud.com/togainthemorning/tgim-405/
+            </link>
+            <guid>
+                https://www.mixcloud.com/togainthemorning/tgim-405/
+            </guid>
+            <description>With bandleader Björk still AWOL, our intrepid co-hosts get philosophical with the Fast and Furious spin off Hobbs and Shaw.  There is much consternation over the lack of walkie talkies, disagreements about whether the bad guy is an AI or a person, and some nonsense about 12 hour bass lines.  Grisha experiences pancake themed wish fulfillment and turtleneck themed dissatisfaction.  Obviously this one is for the philosophy majors out there.</description>
+            <itunes:summary>With bandleader Björk still AWOL, our intrepid co-hosts get philosophical with the Fast and Furious spin off Hobbs and Shaw.  There is much consternation over the lack of walkie talkies, disagreements about whether the bad guy is an AI or a person, and some nonsense about 12 hour bass lines.  Grisha experiences pancake themed wish fulfillment and turtleneck themed dissatisfaction.  Obviously this one is for the philosophy majors out there.</itunes:summary>
+            <itunes:image href="http://sasha-kramer.com/tgim/TGIM_Logo_new.JPG"/>
+            <itunes:author>Grisha and Sasha Kramer</itunes:author>
+            <pubDate>Wed June 17, 2020 12:35:46 EDT</pubDate>
+            <enclosure url="https://archive.org/download/405-mixdown/405%20mixdown.mp3" type="text/html; charset=UTF-8" length="100"/>
+        </item>
         <item>
             <title>Episode 403: Sorceress and Other Tangents</title>
             <itunes:title>Episode 403: Sorceress and Other Tangents</itunes:title>
