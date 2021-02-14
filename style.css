@@ -120,3 +120,21 @@ h1{
 #shuffleButton:hover, #infoButton:hover{
   color: #bbb;
 }
+
+#crump-img {
+  width: 60px;
+  height: 60px;
+  
+}
+
+.crump-svg,
+.fil0 {
+  fill: #00ff00;
+}
+.crump-logo {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  -webkit-mask: url(assets/crump.svg) no-repeat center;
+  mask: url(assets/crump.svg) no-repeat center;
+}

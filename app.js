@@ -101,15 +101,21 @@ $(function(){
         case 'inLink':
           hoverText = 'LinkedIn';
           break;
-        case 'dashboardLink':
-          hoverText = 'Daily Dashboard';
+        case 'crumpLink':
+          hoverText = 'Crump Cocktails'
           break;
-        case 'busLink':
-          hoverText = 'MSP Transit Locator';
+        case 'metronomLink':
+          hoverText = 'metronom'
           break;
-        case 'nileLink':
-          hoverText = 'Nile of the North';
-          break;
+        // case 'dashboardLink':
+        //   hoverText = 'Daily Dashboard';
+        //   break;
+        // case 'busLink':
+        //   hoverText = 'MSP Transit Locator';
+        //   break;
+        // case 'nileLink':
+        //   hoverText = 'Nile of the North';
+        //   break;
         default:
           hoverText = '<br />';
       }
