@@ -56,11 +56,31 @@
 
 a{
   color: inherit;
+  position: relative;
 }
 
 a:hover{
   color: #bbb;
   text-decoration: none;
+}
+.contact-icons:hover {
+  border-bottom: solid 1px #bbb;
+}
+
+.border-spacer {
+  position: absolute;
+  /* border-bottom: solid 1px #bbb; */
+  width: 25px;
+  left: 14px;
+  bottom: -10px;
+}
+
+#crumpLink .border-spacer {
+  left: 18px;
+}
+
+a:hover .border-spacer{
+  border-bottom: solid 1px #bbb;
 }
 
 a:focus{
