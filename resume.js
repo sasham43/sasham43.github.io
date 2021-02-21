@@ -9,12 +9,15 @@ class Main extends LitElement {
         return css`
             .resume {
                 // width: 400px;
+                margin: 10px auto;
+                background-color: #fff;
+                border-radius: 15px;
                 width: 50%;
                 display: grid;
                 grid-template-areas:
-                    ". header ."
-                    "skills . about"
-                    ". history ."
+                    "header  header header header"
+                    "skills skills about about"
+                    ". history history ."
                 ;
             }
             my-header {
@@ -29,6 +32,15 @@ class Main extends LitElement {
             job-history {
                 grid-area: history;
             }
+
+            .resume-section {
+                border: solid 1px black;
+                border-radius: 10px;
+                padding: 5px;
+                padding-top: 10px;
+                margin: 4px;
+                position: relative;
+            }
         `
     }
 
@@ -36,9 +48,9 @@ class Main extends LitElement {
         return html`
             <div class="resume">
                 <my-header></my-header>
-                <my-skills></my-skills>
-                <about-me></about-me>
-                <job-history></job-history>
+                <my-skills class="resume-section"></my-skills>
+                <about-me class="resume-section"></about-me>
+                <job-history class="resume-section"></job-history>
             </div>
         `
     }
@@ -58,11 +70,11 @@ class Header extends LitElement {
     }
     render() {
         return html`
-      <div class="my-header">
-        <div class="my-header-top">Sasha Kramer</div>
-        <div class="my-header-bottom">Creative Developer</div>
-      </div>
-    `;
+            <div class="my-header">
+                <div class="my-header-top">Sasha Kramer</div>
+                <div class="my-header-bottom">Creative Developer</div>
+            </div>
+        `;
     }
 }
 
@@ -74,16 +86,26 @@ class About extends LitElement {
             I love writing beautiful code that generates beautiful mark-up and beautiful user interfaces.  
             I like to learn new ways to do things and regularly seek out new solutions in my free time.  
             I've developed video games, built custom hardware, and generated creative ideation in personal projects to explore the limit of dreamscapes.
+            I believe a diversity of experience makes one richer, so I dance ballet and play D&D.
         `
     }
 
     static get styles(){
-        return css``
+        return css`
+            .about-title {
+                position: absolute;
+                left: calc(50% - 20px);
+                top: -12px;
+                background-color: white;
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+        `
     }
 
     render(){
         return html`
-            <div class="about">
+            <div class="about resume-section">
                 <div class="about-title">
                     About
                 </div>
@@ -102,7 +124,7 @@ class JobHistory extends LitElement {
 
     render(){
         return html`
-            <div>
+            <div class="resume-section>
                 <div class="job-header">
                     Work History
                 </div>
@@ -181,7 +203,6 @@ class JobList extends LitElement {
                 ;
                 // width: 300px;
                 margin: 10px;
-
                 justify-items: center;
             }
 
@@ -239,7 +260,7 @@ class Skills extends LitElement {
 
     render() {
         return html`
-            <div class="skills">
+            <div class="skills resume-section">
                 <div class="skills-header">
                     Skills
                 </div>
@@ -255,6 +276,8 @@ class Skills extends LitElement {
                         <li>SQL</li>
                         <li>PostgreSQL</li>
                         <li>AWS</li>
+                        <li>TouchDesigner</li>
+                        <li>Unity3D</li>
                     </ul>
                 </div>
             </div>
