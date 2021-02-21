@@ -41,6 +41,16 @@ class Main extends LitElement {
                 margin: 4px;
                 position: relative;
             }
+            .skills-title,
+            .job-history-title,
+            .about-title {
+                position: absolute;
+                left: calc(50% - 20px);
+                top: -12px;
+                background-color: white;
+                padding-left: 4px;
+                padding-right: 4px;
+            }
         `
     }
 
@@ -48,9 +58,9 @@ class Main extends LitElement {
         return html`
             <div class="resume">
                 <my-header></my-header>
-                <my-skills class="resume-section"></my-skills>
-                <about-me class="resume-section"></about-me>
-                <job-history class="resume-section"></job-history>
+                <my-skills></my-skills>
+                <about-me></about-me>
+                <job-history></job-history>
             </div>
         `
     }
@@ -78,7 +88,7 @@ class Header extends LitElement {
     }
 }
 
-class About extends LitElement {
+class About extends Main {
     constructor(){
         super()
         this.blurb = `
@@ -91,16 +101,16 @@ class About extends LitElement {
     }
 
     static get styles(){
-        return css`
-            .about-title {
-                position: absolute;
-                left: calc(50% - 20px);
-                top: -12px;
-                background-color: white;
-                padding-left: 4px;
-                padding-right: 4px;
-            }
-        `
+        return [super.styles,css`
+            // .about-title {
+            //     position: absolute;
+            //     left: calc(50% - 20px);
+            //     top: -12px;
+            //     background-color: white;
+            //     padding-left: 4px;
+            //     padding-right: 4px;
+            // }
+        `]
     }
 
     render(){
@@ -117,15 +127,15 @@ class About extends LitElement {
     }
 }
 
-class JobHistory extends LitElement {
+class JobHistory extends Main {
     static get styles(){
-        return css``
+        return [super.styles, css``]
     }
 
     render(){
         return html`
-            <div class="resume-section>
-                <div class="job-header">
+            <div class="job-history resume-section>
+                <div class="job-history-title">
                     Work History
                 </div>
                 <job-list></job-list>
@@ -253,15 +263,15 @@ class JobList extends LitElement {
     }
 }
 
-class Skills extends LitElement {
+class Skills extends Main {
     static get styles(){
-        return css``
+        return [super.styles, css``]
     }
 
     render() {
         return html`
             <div class="skills resume-section">
-                <div class="skills-header">
+                <div class="skills-title">
                     Skills
                 </div>
                 <div class="skills-body">
