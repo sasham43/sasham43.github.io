@@ -3,7 +3,7 @@ $(function(){
   // preload background?
   var src = 'http://apod.nasa.gov/apod/image/1606/PelicanNorthAmerica_Etcheverry_3232.jpg';
   $(window).on("load", function(){
-    $(".background").animate({opacity:1});
+    $(".background").animate({opacity:1}, 200);
   });
 
   printASCII()
