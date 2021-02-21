@@ -26,6 +26,103 @@ class Header extends LitElement {
     }
 }
 
+class JobHistory extends LitElement {
+    static get styles(){
+        return css``
+    }
+
+    render(){
+        return html`
+            <div>
+                <div class="job-header">
+                    Work History
+                </div>
+                <job-list></job-list>
+            </div>
+        `
+    }
+}
+
+class JobList extends LitElement {
+    constructor() {
+        super();
+        this.myArray = [
+            {
+                company: 'TransUnion',
+                start_date: 'Jun 2019',
+                end_date: 'Current',
+                title: 'Software Engineer'
+            },
+            {
+                company: 'TruSignal',
+                start_date: 'Oct 2016',
+                end_date: 'Jun 2019',
+                title: 'Software Engineer'
+            },
+        ]
+        // this.message = 'Loading';
+        // this.addEventListener('stuff-loaded', (e) => { this.message = e.detail });
+        // this.loadStuff();
+    }
+    static get styles() {
+        return css`
+            .job-list {
+
+            }
+            .job-entry {
+                border: solid 1px #ccc;
+                border-radius: 5px;
+                display: grid;
+                grid-template-areas:
+                    "company company"
+                    "title title"
+                    "start end"
+                ;
+                width: 300px;
+                margin-top: 10px;
+                justify-items: center;
+            }
+
+            .company-name {
+                grid-area: company;
+            }
+            .title {
+                grid-area: title;
+            }
+            .start-date {
+                grid-area: start;
+            }
+            .end-date{
+                grid-area: end;
+            }
+
+        `
+    }
+
+    render(){
+        // return history.map(h=>{
+        return html`
+            <div class="job-list">
+                ${this.myArray.map(i => html`<div class="job-entry">
+                    <div class="company-name">
+                        ${i.company}
+                    </div>
+                    <div class="title">
+                        ${i.title}
+                    </div>
+                    <div class="start-date">
+                        ${i.start_date}
+                    </div>
+                    <div class="end-date">
+                        ${i.end_date}
+                    </div>
+                </div>`)} 
+            </div>
+        `
+        // })
+    }
+}
+
 class Skills extends LitElement {
     static get styles(){
         return css``
@@ -58,3 +155,5 @@ class Skills extends LitElement {
 
 customElements.define('my-header', Header);
 customElements.define('my-skills', Skills);
+customElements.define('job-history', JobHistory)
+customElements.define('job-list', JobList)
