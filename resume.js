@@ -4,6 +4,46 @@ import { LitElement, html, css } from 'https://unpkg.com/lit-element?module';
 // import { html, render } from './node_modules/lit-html/lit-html.js';
 // import {LitElement} from './node_modules/lit-element/lit-element.js'
 
+class Main extends LitElement {
+    static get styles(){
+        return css`
+            .resume {
+                // width: 400px;
+                width: 50%;
+                display: grid;
+                grid-template-areas:
+                    ". header ."
+                    "skills . about"
+                    ". history ."
+                ;
+            }
+            my-header {
+                grid-area: header;
+            }
+            my-skills {
+                grid-area: skills;
+            }
+            about-me {
+                grid-area: about;
+            }
+            job-history {
+                grid-area: history;
+            }
+        `
+    }
+
+    render(){
+        return html`
+            <div class="resume">
+                <my-header></my-header>
+                <my-skills></my-skills>
+                <about-me></about-me>
+                <job-history></job-history>
+            </div>
+        `
+    }
+}
+
 class Header extends LitElement {
     static get styles() {
         return css`
@@ -23,6 +63,35 @@ class Header extends LitElement {
         <div class="my-header-bottom">Creative Developer</div>
       </div>
     `;
+    }
+}
+
+class About extends LitElement {
+    constructor(){
+        super()
+        this.blurb = `
+            As a developer, I utilized my creativity daily to inspire.  
+            I love writing beautiful code that generates beautiful mark-up and beautiful user interfaces.  
+            I like to learn new ways to do things and regularly seek out new solutions in my free time.  
+            I've developed video games, built custom hardware, and generated creative ideation in personal projects to explore the limit of dreamscapes.
+        `
+    }
+
+    static get styles(){
+        return css``
+    }
+
+    render(){
+        return html`
+            <div class="about">
+                <div class="about-title">
+                    About
+                </div>
+                <div class="about-content">
+                    ${this.blurb}
+                </div>
+            </div>
+        `
     }
 }
 
@@ -193,7 +262,9 @@ class Skills extends LitElement {
     }
 }
 
+customElements.define('my-resume', Main)
 customElements.define('my-header', Header);
 customElements.define('my-skills', Skills);
 customElements.define('job-history', JobHistory)
 customElements.define('job-list', JobList)
+customElements.define('about-me', About)
