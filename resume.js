@@ -37,7 +37,7 @@ class Main extends LitElement {
                 border: solid 1px black;
                 border-radius: 10px;
                 padding: 5px;
-                padding-top: 10px;
+                padding-top: 18px;
                 margin: 4px;
                 position: relative;
             }
@@ -46,10 +46,12 @@ class Main extends LitElement {
             .about-title {
                 position: absolute;
                 left: calc(50% - 20px);
-                top: -12px;
+                top: -18px;
                 background-color: white;
                 padding-left: 4px;
                 padding-right: 4px;
+                font-family: 'VT323', monospace;
+                font-size: 25px;
             }
         `
     }
