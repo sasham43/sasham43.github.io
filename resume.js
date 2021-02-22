@@ -16,6 +16,7 @@ class Main extends LitElement {
                 display: grid;
                 grid-template-areas:
                     "header  header header header"
+                    "skills skills contact contact"
                     "skills skills about about"
                     ". history history ."
                 ;
@@ -32,6 +33,9 @@ class Main extends LitElement {
             job-history {
                 grid-area: history;
             }
+            contact-info {
+                grid-area: contact;
+            }
 
             .resume-section {
                 border: solid 1px black;
@@ -41,6 +45,7 @@ class Main extends LitElement {
                 margin: 4px;
                 position: relative;
             }
+            .contact-title,
             .skills-title,
             .job-history-title,
             .about-title {
@@ -61,8 +66,36 @@ class Main extends LitElement {
             <div class="resume">
                 <my-header></my-header>
                 <my-skills></my-skills>
-                <about-me></about-me>
+                <contact-info></contact-info>
+                <about-me></about-me>                
                 <job-history></job-history>
+            </div>
+        `
+    }
+}
+
+class Contact extends Main {
+    static get styles(){
+        return [super.styles]
+    }
+
+    render(){
+        return html`
+            <div class="contact resume-section">
+                <div class="contact-title">
+                    Contact
+                </div>
+                <div class="contact-info">
+                    <div>
+                        <a target="_blank" href="http://www.sasha-kramer.com">www.sasha-kramer.com</a>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://www.linkedin.com/in/sasha-kramer-69b95231/">LinkedIn</a>
+                    </div>
+                    <div>
+                        <a target="_blank" href="http://github.com/sasham43">github.com/sasham43</a>
+                    </div>
+                </div>
             </div>
         `
     }
@@ -303,3 +336,4 @@ customElements.define('my-skills', Skills);
 customElements.define('job-history', JobHistory)
 customElements.define('job-list', JobList)
 customElements.define('about-me', About)
+customElements.define('contact-info', Contact)
