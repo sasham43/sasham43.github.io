@@ -16,9 +16,9 @@ class Main extends LitElement {
                 display: grid;
                 grid-template-areas:
                     "header  header header header"
-                    "skills skills contact contact"
+                    "contact contact about about"
                     "skills skills about about"
-                    ". history history ."
+                    "history history history history"
                 ;
             }
             my-header {
@@ -174,7 +174,7 @@ class JobHistory extends Main {
                 start_date: 'Jun 2019',
                 end_date: 'Current',
                 title: 'Software Engineer',
-                description: `Design and program user interfaces for multiple web applications (both internal and customer-facing). Program back end systems (writing API routes and database queries) to support front-end applications. Design and maintain custom backend systems in AWS to support web applications and data processing workflows.`
+                description: `Design and program user interfaces for multiple web applications (both internal and customer-facing).\nProgram back end systems (writing API routes and database queries) to support front-end applications.\nDesign and maintain custom backend systems in AWS to support web applications and data processing workflows.`
             },
             {
                 company: 'TruSignal',
@@ -222,10 +222,18 @@ class JobHistory extends Main {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
             }
+            .job-list>div:first-child {
+                grid-column: 1 / 3;
+                grid-row: 1 / 3;
+            }
+            .job-list>div:first-child>.description {
+                max-height: 80%;
+            }
             .job-entry {
                 border: solid 1px #ccc;
                 border-radius: 5px;
                 display: grid;
+                grid-template-rows: 30px 30px 30px 1fr;
                 grid-template-areas:
                     "company company"
                     "title title"
@@ -252,6 +260,8 @@ class JobHistory extends Main {
             .description {
                 grid-area: description;
                 padding: 4px;
+                max-height: 100px;
+                overflow: scroll;
             }
 
         `, super.styles]
@@ -434,7 +444,13 @@ class JobHistory extends Main {
 
 class Skills extends Main {
     static get styles(){
-        return [super.styles, css``]
+        return [super.styles, css`
+            .skills-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                // grid-template-rows: 5;
+            }
+        `]
     }
 
     render() {
@@ -444,20 +460,20 @@ class Skills extends Main {
                     Skills
                 </div>
                 <div class="skills-body">
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>Vue.js</li>
-                        <li>React.js</li>
-                        <li>React Native</li>
-                        <li>AngularJS</li>
-                        <li>Node.js</li>
-                        <li>SQL</li>
-                        <li>PostgreSQL</li>
-                        <li>AWS</li>
-                        <li>TouchDesigner</li>
-                        <li>Unity3D</li>
-                    </ul>
+                    <div class="skills-container">
+                        <div>JavaScript</div>
+                        <div>Python</div>
+                        <div>Vue.js</div>
+                        <div>React.js</div>
+                        <div>React Native</div>
+                        <div>AngularJS</div>
+                        <div>Node.js</div>
+                        <div>SQL</div>
+                        <div>PostgreSQL</div>
+                        <div>AWS</div>
+                        <div>TouchDesigner</div>
+                        <div>Unity3D</div>
+                    </div>
                 </div>
             </div>
         `
