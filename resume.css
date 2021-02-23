@@ -1,3 +1,9 @@
+ :root {
+    --about-color: #F26419;
+    --skills-color: #F6AE2D;
+    --contact-color: #86BBD8;
+    --job-history-color: #33658A;
+}
 body {
     background-color: #eee;
     font-family: 'VT323', monospace;

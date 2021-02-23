@@ -7,6 +7,8 @@ import { LitElement, html, css } from 'https://unpkg.com/lit-element?module';
 class Main extends LitElement {
     static get styles(){
         return css`
+           
+
             .resume {
                 // width: 400px;
                 margin: 10px auto;
@@ -20,6 +22,10 @@ class Main extends LitElement {
                     "skills skills about about"
                     "history history history history"
                 ;
+                grid-row-gap: 22px;
+                grid-column-gap: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
             }
             my-header {
                 grid-area: header;
@@ -44,6 +50,12 @@ class Main extends LitElement {
                 padding-top: 18px;
                 margin: 4px;
                 position: relative;
+                box-shadow:
+                    0 0 0 3px #fff,
+                    0 0 0 6px #000,
+                    0 0 0 9px #fff,
+                    0 0 0 10px #000,
+                    0 0 0 11px #fff;
             }
             .contact-title,
             .skills-title,
@@ -51,12 +63,65 @@ class Main extends LitElement {
             .about-title {
                 position: absolute;
                 left: calc(50% - 20px);
-                top: -18px;
+                top: -22px;
                 background-color: white;
                 padding-left: 4px;
                 padding-right: 4px;
                 font-family: 'VT323', monospace;
                 font-size: 25px;
+            }
+            .about-title {
+                // color: #F26419;
+                color: var(--about-color);
+            }
+            .skills-title {
+                // color: #F6AE2D;
+                color: var(--skills-color);
+            }
+            .contact-title {
+                // color: #86BBD8;
+                color: var(--contact-color);
+            }
+            .job-history-title {
+                // color: #33658A;
+                color: var(--job-history-color);
+            }
+
+            .about.resume-section {
+                box-shadow:
+                    0 0 0 3px #fff,
+                    0 0 0 6px var(--about-color),
+                    0 0 0 9px #fff,
+                    0 0 0 10px var(--about-color),
+                    0 0 0 11px #fff;
+                border-color: var(--about-color)
+            }
+            .skills.resume-section {
+                box-shadow:
+                    0 0 0 3px #fff,
+                    0 0 0 6px var(--skills-color),
+                    0 0 0 9px #fff,
+                    0 0 0 10px var(--skills-color),
+                    0 0 0 11px #fff;
+                border-color: var(--skills-color)
+            }
+            .contact.resume-section {
+                box-shadow:
+                    0 0 0 3px #fff,
+                    0 0 0 6px var(--contact-color),
+                    0 0 0 9px #fff,
+                    0 0 0 10px var(--contact-color),
+                    0 0 0 11px #fff;
+                border-color: var(--contact-color)
+            }
+            .job-history.resume-section {
+                box-shadow:
+                    0 0 0 3px #fff,
+                    0 0 0 6px var(--job-history-color),
+                    0 0 0 9px #fff,
+                    0 0 0 10px var(--job-history-color),
+                    0 0 0 11px #fff;
+                border-color: var(--job-history-color)
             }
         `
     }
