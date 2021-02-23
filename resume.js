@@ -516,6 +516,10 @@ class Skills extends Main {
                 grid-template-columns: 1fr 1fr;
                 // grid-template-rows: 5;
             }
+            .skills-container ul {
+                list-style: square;
+                margin: 0;
+            }
         `]
     }
 
@@ -527,18 +531,18 @@ class Skills extends Main {
                 </div>
                 <div class="skills-body">
                     <div class="skills-container">
-                        <div>JavaScript</div>
-                        <div>Python</div>
-                        <div>Vue.js</div>
-                        <div>React.js</div>
-                        <div>React Native</div>
-                        <div>AngularJS</div>
-                        <div>Node.js</div>
-                        <div>SQL</div>
-                        <div>PostgreSQL</div>
-                        <div>AWS</div>
-                        <div>TouchDesigner</div>
-                        <div>Unity3D</div>
+                        <ul><li>JavaScript</li></ul>
+                        <ul><li>Python</li></ul>
+                        <ul><li>Vue.js</li></ul>
+                        <ul><li>React.js</li></ul>
+                        <ul><li>React Native</li></ul>
+                        <ul><li>AngularJS</li></ul>
+                        <ul><li>Node.js</li></ul>
+                        <ul><li>SQL</li></ul>
+                        <ul><li>PostgreSQL</li></ul>
+                        <ul><li>AWS</li></ul>
+                        <ul><li>TouchDesigner</li></ul>
+                        <ul><li>Unity3D</li></ul>
                     </div>
                 </div>
             </div>
