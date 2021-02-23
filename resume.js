@@ -24,7 +24,7 @@ class Main extends LitElement {
                     "skills skills about about"
                     "history history history history"
                 ;
-                grid-row-gap: 22px;
+                grid-row-gap: 30px;
                 grid-column-gap: 20px;
                 padding-left: 15px;
                 padding-right: 15px;
@@ -65,8 +65,8 @@ class Main extends LitElement {
             .job-history-title,
             .about-title {
                 position: absolute;
-                left: calc(50% - 20px);
-                top: -22px;
+                // left: calc(50% - 20px);
+                top: -26px;
                 // background-color: white;
                 background-color: var(--bg-color);
                 padding-left: 4px;
@@ -99,7 +99,13 @@ class Main extends LitElement {
                 // color: #33658A;
                 color: var(--job-history-color);
                 border-color: var(--job-history-color);
-                
+            }
+
+            .title-left {
+                left: 10px;
+            }
+            .title-right {
+                right: 10px;
             }
 
             .about.resume-section {
@@ -168,7 +174,7 @@ class Contact extends Main {
     render(){
         return html`
             <div class="contact resume-section">
-                <div class="contact-title">
+                <div class="contact-title title-left">
                     Contact
                 </div>
                 <div class="contact-info">
@@ -237,7 +243,7 @@ class About extends Main {
     render(){
         return html`
             <div class="about resume-section">
-                <div class="about-title">
+                <div class="about-title title-right">
                     About
                 </div>
                 <div class="about-content">
@@ -353,36 +359,10 @@ class JobHistory extends Main {
         `, super.styles]
     }
 
-    // render() {
-    //     // return history.map(h=>{
-    //     return html`
-    //         <div class="job-list">
-    //             ${this.myArray.map(i => html`<div class="job-entry">
-    //                 <div class="company-name">
-    //                     ${i.company}
-    //                 </div>
-    //                 <div class="title">
-    //                     ${i.title}
-    //                 </div>
-    //                 <div class="start-date">
-    //                     ${i.start_date}
-    //                 </div>
-    //                 <div class="end-date">
-    //                     ${i.end_date}
-    //                 </div>
-    //                 <div class="description">
-    //                     ${i.description}
-    //                 </div>
-    //             </div>`)} 
-    //         </div>
-    //     `
-    //     // })
-    // }
-
     render(){
         return html`
             <div class="job-history resume-section">
-                <div class="job-history-title">
+                <div class="job-history-title title-right">
                     Work History
                 </div>
                 <div class="job-list">
