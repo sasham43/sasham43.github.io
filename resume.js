@@ -29,6 +29,7 @@ class Main extends LitElement {
                 padding-left: 15px;
                 padding-right: 15px;
                 padding-bottom: 15px;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
             }
             my-header {
                 grid-area: header;
@@ -39,7 +40,7 @@ class Main extends LitElement {
             about-me {
                 grid-area: about;
             }
-            job-history {
+            work-history {
                 grid-area: history;
             }
             contact-info {
@@ -140,7 +141,7 @@ class Main extends LitElement {
                 border-color: var(--contact-color);
                 background-color: var(--contact-bg-color);
             }
-            .job-history.resume-section {
+            .work-history.resume-section {
                 box-shadow:
                     0 0 0 3px var(--bg-color),
                     0 0 0 6px var(--job-history-color),
@@ -160,7 +161,7 @@ class Main extends LitElement {
                 <my-skills></my-skills>
                 <contact-info></contact-info>
                 <about-me></about-me>                
-                <job-history></job-history>
+                <work-history></work-history>
             </div>
         `
     }
@@ -180,6 +181,9 @@ class Contact extends Main {
                 <div class="contact-info">
                     <div>
                         <a target="_blank" href="http://www.sasha-kramer.com">www.sasha-kramer.com</a>
+                    </div>
+                    <div>
+                        <a target="_blank" href="mailto:sashasemail@gmail.com">sashasemail@gmail.com</a>
                     </div>
                     <div>
                         <a target="_blank" href="https://www.linkedin.com/in/sasha-kramer-69b95231/">LinkedIn</a>
@@ -248,6 +252,138 @@ class About extends Main {
                 </div>
                 <div class="about-content">
                     ${this.blurb}
+                </div>
+            </div>
+        `
+    }
+}
+
+class WorkHistory extends Main {
+    constructor(){
+        super()
+        this.currentJob = {
+            company: 'TruSignal (acquired) / TransUnion',
+            start_date: 'Oct 2016',
+            end_date: 'Current',
+            description: `
+                Design and program user interfaces for multiple web applications (both internal and customer-facing).\n
+                Program back end systems (writing API routes and database queries) to support front-end applications.\n
+                Design and maintain custom backend systems in AWS to support web applications and data processing workflows.\n
+                Work with product owners to design and implement UI elements.\n
+                Utilize agile workflow methodology to write stories and complete work.`
+        }
+        this.otherJobs = [
+            {
+                company: 'RTS Solutionz',
+                start_date: 'Jan 2016',
+                end_date: 'Mar 2016',
+                title: 'A/V Programmer',
+                description: `Programmed Crestron A/V systems for 24 meeting rooms and two large multipurpose rooms. Designed and programmed user interfaces for end users and technical support personnel. Designed and implemented a custom camera tracking system for Cisco VTC platform.`
+            },
+            {
+                company: 'National Capitol Contracting',
+                start_date: 'Jan 2015',
+                end_date: 'May 2015',
+                title: 'A/V Programmer',
+                description: `Designed, programmed, and implemented audiovisual systems for connected rooms (conference rooms, auditoriums, and training centers). Developed user interfaces for both end users and technical staff. Programmed control interfaces for audio, video and teleconferencing equipment. Performed troubleshooting and maintenance on existing systems. Familiarity with both Crestron and AMX systems.`
+            },
+            {
+                company: 'National Capitol Contracting',
+                start_date: 'Apr 2012',
+                end_date: 'Jan 2015',
+                title: 'Multimedia Editor',
+                description: `Acted as an editor for a variety of transcripts, including federal government meetings, court cases, and television interviews. Generated closed captions for videos to meet accessibility standards. Led webcasts for government meetings and trainings including website creation, server creation, and videography.`
+            },
+            {
+                company: 'National Capitol Contracting',
+                start_date: 'Sep 2011',
+                end_date: 'Apr 2012',
+                title: 'Transcriber',
+                description: `Transcribed a wide variety of digital audio, from federal government meetings to Charlie Rose interviews.`
+            },
+        ]
+    }
+
+    static get styles(){
+        return [
+            super.styles,
+            css`
+                .work-history {
+                    display: grid;
+                    grid-column-gap: 10px;
+                    grid-row-gap: 4px;
+                    grid-template-areas:
+                        "main-job other-job"
+                        "main-job other-job"
+                        "main-job other-job"
+                    ;
+                }
+                .main-job {
+                    grid-area: main-job;
+                    font-size: 17px;
+                }
+                .other-jobs {
+                    grid-area: other-job;
+                }
+                .main-job,
+                .other-job {
+                    border: solid 2px white;
+                    border-radius: 15px;
+                    padding: 4px;
+                }
+                .other-job {
+                    margin-top: 2px;
+                }
+                .company,
+                .title,
+                .dates {
+                    text-align: center;
+                }
+            `
+        ]
+    }
+
+    render(){
+        return html`
+            <div class="work-history resume-section">
+                <div class="job-history-title title-right">
+                    Work History
+                </div>
+                <div class="main-job">
+                    <div class="company">
+                        ${this.currentJob.company}
+                    </div>
+                    <div class="title">
+                        ${this.currentJob.title}
+                    </div>
+                    <div class="dates">
+                        ${this.currentJob.start_date} - ${this.currentJob.end_date}
+                    </div>
+                    <div class="description">
+                        <ul>
+                            ${this.currentJob.description.split(`.\n`).map(d=>{
+                                console.log('d',d)
+                                return html`<li>${d}</li>`
+                            })}
+                        </ul>
+                    </div>
+                </div>
+                <div class="other-jobs">
+                    ${this.otherJobs.map(job=>{
+                        return html`
+                            <div class="other-job">
+                                <div class="company">
+                                    ${job.company}
+                                </div>
+                                <div class="title">
+                                    ${job.title}
+                                </div>
+                                <div class="dates">
+                                    ${job.start_date} - ${job.end_date}
+                                </div>
+                            </div>
+                        `
+                    })}
                 </div>
             </div>
         `
@@ -389,124 +525,6 @@ class JobHistory extends Main {
     }
 }
 
-// class JobList extends LitElement {
-//     constructor() {
-//         super();
-//         this.myArray = [
-//             {
-//                 company: 'TransUnion',
-//                 start_date: 'Jun 2019',
-//                 end_date: 'Current',
-//                 title: 'Software Engineer',
-//                 description: `Design and program user interfaces for multiple web applications (both internal and customer-facing). Program back end systems (writing API routes and database queries) to support front-end applications. Design and maintain custom backend systems in AWS to support web applications and data processing workflows.`
-//             },
-//             {
-//                 company: 'TruSignal',
-//                 start_date: 'Oct 2016',
-//                 end_date: 'Jun 2019',
-//                 title: 'Software Engineer',
-//                 description: `Design and program user interfaces for multiple web applications (both internal and customer-facing). Program back end systems (writing API routes and database queries) to support front-end applications. Design and maintain custom backend systems in AWS to support web applications and data processing workflows.`
-//             },
-//             {
-//                 company: 'RTS Solutionz',
-//                 start_date: 'Jan 2016',
-//                 end_date: 'Mar 2016',
-//                 title: 'A/V Programmer',
-//                 description: `Programmed Crestron A/V systems for 24 meeting rooms and two large multipurpose rooms. Designed and programmed user interfaces for end users and technical support personnel. Designed and implemented a custom camera tracking system for Cisco VTC platform.`
-//             },
-//             {
-//                 company: 'National Capitol Contracting',
-//                 start_date: 'Jan 2015',
-//                 end_date: 'May 2015',
-//                 title: 'A/V Programmer',
-//                 description: `Designed, programmed, and implemented audiovisual systems for connected rooms (conference rooms, auditoriums, and training centers). Developed user interfaces for both end users and technical staff. Programmed control interfaces for audio, video and teleconferencing equipment. Performed troubleshooting and maintenance on existing systems. Familiarity with both Crestron and AMX systems.`
-//             },
-//             {
-//                 company: 'National Capitol Contracting',
-//                 start_date: 'Apr 2012',
-//                 end_date: 'Jan 2015',
-//                 title: 'Multimedia Editor',
-//                 description: `Acted as an editor for a variety of transcripts, including federal government meetings, court cases, and television interviews. Generated closed captions for videos to meet accessibility standards. Led webcasts for government meetings and trainings including website creation, server creation, and videography.`
-//             },
-//             {
-//                 company: 'National Capitol Contracting',
-//                 start_date: 'Sep 2011',
-//                 end_date: 'Apr 2012',
-//                 title: 'Transcriber',
-//                 description: `Transcribed a wide variety of digital audio, from federal government meetings to Charlie Rose interviews.`
-//             },
-//         ]
-//         // this.message = 'Loading';
-//         // this.addEventListener('stuff-loaded', (e) => { this.message = e.detail });
-//         // this.loadStuff();
-//     }
-//     static get styles() {
-//         return css`
-//             .job-list {
-//                 display: grid;
-//                 grid-template-columns: 1fr 1fr 1fr;
-//             }
-//             .job-entry {
-//                 border: solid 1px #ccc;
-//                 border-radius: 5px;
-//                 display: grid;
-//                 grid-template-areas:
-//                     "company company"
-//                     "title title"
-//                     "start end"
-//                     "description description"
-//                 ;
-//                 // width: 300px;
-//                 margin: 10px;
-//                 justify-items: center;
-//             }
-
-//             .company-name {
-//                 grid-area: company;
-//             }
-//             .title {
-//                 grid-area: title;
-//             }
-//             .start-date {
-//                 grid-area: start;
-//             }
-//             .end-date{
-//                 grid-area: end;
-//             }
-//             .description {
-//                 grid-area: description;
-//                 padding: 4px;
-//             }
-
-//         `
-//     }
-
-//     render(){
-//         // return history.map(h=>{
-//         return html`
-//             <div class="job-list">
-//                 ${this.myArray.map(i => html`<div class="job-entry">
-//                     <div class="company-name">
-//                         ${i.company}
-//                     </div>
-//                     <div class="title">
-//                         ${i.title}
-//                     </div>
-//                     <div class="start-date">
-//                         ${i.start_date}
-//                     </div>
-//                     <div class="end-date">
-//                         ${i.end_date}
-//                     </div>
-//                     <div class="description">
-//                         ${i.description}
-//                     </div>
-//                 </div>`)} 
-//             </div>
-//         `
-//         // })
-//     }
-// }
 
 class Skills extends Main {
     static get styles(){
@@ -555,5 +573,6 @@ customElements.define('my-header', Header);
 customElements.define('my-skills', Skills);
 customElements.define('job-history', JobHistory)
 // customElements.define('job-list', JobList)
+customElements.define('work-history', WorkHistory)
 customElements.define('about-me', About)
 customElements.define('contact-info', Contact)
