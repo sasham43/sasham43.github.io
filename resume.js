@@ -174,18 +174,23 @@ class Contact extends Main {
             Fontawesome,
             super.styles,
             css`
-            * {
-                color: black;
-            }
-            *:hover {
-                color: white;
-            }
-            a {
-                text-decoration: none;
-            }
-            a>span {
-                text-decoration: underline;
-            }
+                * {
+                    color: black;
+                }
+                *:hover {
+                    color: white;
+                }
+                a {
+                    text-decoration: none;
+                }
+                a>span {
+                    text-decoration: underline;
+                }
+
+                .contact-info {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
             `
         ]
     }
@@ -404,7 +409,7 @@ class WorkHistory extends Main {
     }
 
     clickJob(e,job){
-        console.log('selected job', job)
+        // console.log('selected job', job)
         // this.otherJobs.push(this.currentJob)
         // this.otherJobs.splice(job.index, 1, this.currentJob)
         this.otherJobs = this.otherJobs.map(j=>{
