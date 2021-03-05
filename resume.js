@@ -32,7 +32,7 @@ class Main extends LitElement {
                 padding-bottom: 15px;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
-            @media (max-width: 500px) {
+            @media (max-width: 550px) {
                 
                 .resume {
                     grid-template-areas:
@@ -49,8 +49,10 @@ class Main extends LitElement {
                     padding-left: 6px;
                     padding-right: 6px;
                 }
+
+
             }
-            @media(min-width: 500px) and (max-width: 1500px){
+            @media(min-width: 550px) and (max-width: 1400px){
                 .resume {
                     width: 90%;
                 }
@@ -222,11 +224,18 @@ class Contact extends Main {
                 .contact {
                     display: flex;
                     align-items: space-between;
+                    flex-grow: 1
                 }
 
                 .contact-info {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
+                    flex-grow: 1;
+                }
+                @media(min-width: 550px) and (max-width: 775px){
+                    .contact-info {
+                        grid-template-columns: 1fr;
+                    }
                 }
             `
         ]
@@ -383,7 +392,10 @@ class WorkHistory extends Main {
                 start_date: 'Sep 2011',
                 end_date: 'Apr 2012',
                 title: 'Transcriber',
-                description: `Transcribed a wide variety of digital audio, from federal government meetings to Charlie Rose interviews.`
+                description: `
+                    Transcribed a wide variety of digital audio, from federal government meetings to Charlie Rose interviews.\n
+                    Assisted in the creation of closed-caption video files for a variety of content.\n
+                    Digitized audio and video for dissemination to remote workers.`
             },
         ]
     }
@@ -410,6 +422,16 @@ class WorkHistory extends Main {
                         "main-job other-job"
                     ;
                 }
+                @media(max-width: 900px){
+                    .work-history {
+                        grid-template-areas:
+                            "main-job"
+                            "other-job"
+                        ;
+                        grid-template-columns: 1fr;
+                    }
+                }
+
                 .main-job {
                     grid-area: main-job;
                     font-size: 17px;
@@ -435,6 +457,25 @@ class WorkHistory extends Main {
                 .title,
                 .dates {
                     text-align: center;
+                }
+                .description {
+                    min-height: 200px;
+                }
+                @media(max-width:500px){
+                    .description {
+                        min-height: 350px;
+                    }
+                    .description ul {
+                        padding-left: 20px;
+                    }
+                }
+                @media(min-width: 900px) and (max-width: 1500px){
+                    .other-job {
+                        min-height: 128px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
                 }
             `
         ]
@@ -556,7 +597,10 @@ class JobHistory extends Main {
                 start_date: 'Sep 2011',
                 end_date: 'Apr 2012',
                 title: 'Transcriber',
-                description: `Transcribed a wide variety of digital audio, from federal government meetings to Charlie Rose interviews.`
+                description: `
+                    Transcribed a wide variety of digital audio, from federal government meetings to Charlie Rose interviews.\n
+                    Assisted in the creation of closed-caption video files for a variety of content.
+                    Digitized audio and video for dissemination to remote workers.`
             },
         ]
         // this.message = 'Loading';
