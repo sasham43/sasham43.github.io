@@ -1,6 +1,7 @@
 // import { LitElement, html } from 'lit-element'
 // import { html, render } from 'https://unpkg.com/lit-html?module'
 import { LitElement, html, css } from 'https://unpkg.com/lit-element?module';
+import Fontawesome from './fontawesome.js'
 // import { html, render } from './node_modules/lit-html/lit-html.js';
 // import {LitElement} from './node_modules/lit-element/lit-element.js'
 
@@ -169,7 +170,24 @@ class Main extends LitElement {
 
 class Contact extends Main {
     static get styles(){
-        return [super.styles]
+        return [
+            Fontawesome,
+            super.styles,
+            css`
+            * {
+                color: black;
+            }
+            *:hover {
+                color: white;
+            }
+            a {
+                text-decoration: none;
+            }
+            a>span {
+                text-decoration: underline;
+            }
+            `
+        ]
     }
 
     render(){
@@ -180,16 +198,28 @@ class Contact extends Main {
                 </div>
                 <div class="contact-info">
                     <div>
-                        <a target="_blank" href="http://www.sasha-kramer.com">www.sasha-kramer.com</a>
+                        <a target="_blank" href="http://www.sasha-kramer.com">
+                            <i class="fas fa-globe"></i>
+                            <span>www.sasha-kramer.com</span>
+                        </a>
                     </div>
                     <div>
-                        <a target="_blank" href="mailto:sashasemail@gmail.com">sashasemail@gmail.com</a>
+                        <a target="_blank" href="mailto:sashasemail@gmail.com">
+                            <i class="far fa-envelope"></i>
+                            <span>sashasemail@gmail.com</span>
+                        </a>
                     </div>
                     <div>
-                        <a target="_blank" href="https://www.linkedin.com/in/sasha-kramer-69b95231/">LinkedIn</a>
+                        <a target="_blank" href="https://www.linkedin.com/in/sasha-kramer-69b95231/">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
                     </div>
                     <div>
-                        <a target="_blank" href="http://github.com/sasham43">github.com/sasham43</a>
+                        <a target="_blank" href="http://github.com/sasham43">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/sasham43</span>
+                        </a>
                     </div>
                 </div>
             </div>
