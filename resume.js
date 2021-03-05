@@ -296,6 +296,7 @@ class WorkHistory extends Main {
             company: 'TruSignal (acquired) / TransUnion',
             start_date: 'Oct 2016',
             end_date: 'Current',
+            title: 'Full Stack Software Engineer',
             description: `
                 Design and program user interfaces for multiple web applications (both internal and customer-facing).\n
                 Program back end systems (writing API routes and database queries) to support front-end applications.\n
@@ -310,7 +311,10 @@ class WorkHistory extends Main {
                 start_date: 'Jan 2016',
                 end_date: 'Mar 2016',
                 title: 'A/V Programmer',
-                description: `Programmed Crestron A/V systems for 24 meeting rooms and two large multipurpose rooms. Designed and programmed user interfaces for end users and technical support personnel. Designed and implemented a custom camera tracking system for Cisco VTC platform.`
+                description: `
+                    Programmed Crestron A/V systems for 24 meeting rooms and two large multipurpose rooms.\n
+                    Designed and programmed user interfaces for end users and technical support personnel.\n
+                    Designed and implemented a custom camera tracking system for Cisco VTC platform.`
             },
             {
                 index: 2,
@@ -318,7 +322,12 @@ class WorkHistory extends Main {
                 start_date: 'Jan 2015',
                 end_date: 'May 2015',
                 title: 'A/V Programmer',
-                description: `Designed, programmed, and implemented audiovisual systems for connected rooms (conference rooms, auditoriums, and training centers). Developed user interfaces for both end users and technical staff. Programmed control interfaces for audio, video and teleconferencing equipment. Performed troubleshooting and maintenance on existing systems. Familiarity with both Crestron and AMX systems.`
+                description: `
+                    Designed, programmed, and implemented audiovisual systems for connected rooms (conference rooms, auditoriums, and training centers).\n
+                    Developed user interfaces for both end users and technical staff.\n
+                    Programmed control interfaces for audio, video and teleconferencing equipment.\n
+                    Performed troubleshooting and maintenance on existing systems.\n
+                    Familiarity with both Crestron and AMX systems.`
             },
             {
                 index: 3,
@@ -326,7 +335,10 @@ class WorkHistory extends Main {
                 start_date: 'Apr 2012',
                 end_date: 'Jan 2015',
                 title: 'Multimedia Editor',
-                description: `Acted as an editor for a variety of transcripts, including federal government meetings, court cases, and television interviews. Generated closed captions for videos to meet accessibility standards. Led webcasts for government meetings and trainings including website creation, server creation, and videography.`
+                description: `
+                    Acted as an editor for a variety of transcripts, including federal government meetings, court cases, and television interviews.\n
+                    Generated closed captions for videos to meet accessibility standards.\n
+                    Led webcasts for government meetings and trainings including website creation, server creation, and videography.`
             },
             {
                 index: 4,
@@ -352,6 +364,7 @@ class WorkHistory extends Main {
             css`
                 .work-history {
                     display: grid;
+                    grid-template-columns: 3fr 1fr;
                     grid-column-gap: 10px;
                     grid-row-gap: 4px;
                     grid-template-areas:
