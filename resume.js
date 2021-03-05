@@ -292,6 +292,7 @@ class WorkHistory extends Main {
     constructor(){
         super()
         this.currentJob = {
+            index: 0,
             company: 'TruSignal (acquired) / TransUnion',
             start_date: 'Oct 2016',
             end_date: 'Current',
@@ -304,6 +305,7 @@ class WorkHistory extends Main {
         }
         this.otherJobs = [
             {
+                index: 1,
                 company: 'RTS Solutionz',
                 start_date: 'Jan 2016',
                 end_date: 'Mar 2016',
@@ -311,6 +313,7 @@ class WorkHistory extends Main {
                 description: `Programmed Crestron A/V systems for 24 meeting rooms and two large multipurpose rooms. Designed and programmed user interfaces for end users and technical support personnel. Designed and implemented a custom camera tracking system for Cisco VTC platform.`
             },
             {
+                index: 2,
                 company: 'National Capitol Contracting',
                 start_date: 'Jan 2015',
                 end_date: 'May 2015',
@@ -318,6 +321,7 @@ class WorkHistory extends Main {
                 description: `Designed, programmed, and implemented audiovisual systems for connected rooms (conference rooms, auditoriums, and training centers). Developed user interfaces for both end users and technical staff. Programmed control interfaces for audio, video and teleconferencing equipment. Performed troubleshooting and maintenance on existing systems. Familiarity with both Crestron and AMX systems.`
             },
             {
+                index: 3,
                 company: 'National Capitol Contracting',
                 start_date: 'Apr 2012',
                 end_date: 'Jan 2015',
@@ -325,6 +329,7 @@ class WorkHistory extends Main {
                 description: `Acted as an editor for a variety of transcripts, including federal government meetings, court cases, and television interviews. Generated closed captions for videos to meet accessibility standards. Led webcasts for government meetings and trainings including website creation, server creation, and videography.`
             },
             {
+                index: 4,
                 company: 'National Capitol Contracting',
                 start_date: 'Sep 2011',
                 end_date: 'Apr 2012',
@@ -332,6 +337,13 @@ class WorkHistory extends Main {
                 description: `Transcribed a wide variety of digital audio, from federal government meetings to Charlie Rose interviews.`
             },
         ]
+    }
+
+    static get properties() {
+        return {
+            currentJob: {},
+            otherJobs: {},
+        };
     }
 
     static get styles(){
@@ -373,6 +385,28 @@ class WorkHistory extends Main {
         ]
     }
 
+    clickJob(e,job){
+        console.log('selected job', job)
+        // this.otherJobs.push(this.currentJob)
+        // this.otherJobs.splice(job.index, 1, this.currentJob)
+        this.otherJobs = this.otherJobs.map(j=>{
+            if(j.index == job.index){
+                return this.currentJob
+            } else {
+                return j
+            }
+        })
+        this.currentJob = job
+    }
+    sortJobs(a,b){
+        if(a.index > b.index){
+            return 1
+        } else if (a.index < b.index){
+            return -1
+        }
+        return 0
+    }
+
     render(){
         return html`
             <div class="work-history resume-section">
@@ -399,9 +433,9 @@ class WorkHistory extends Main {
                     </div>
                 </div>
                 <div class="other-jobs">
-                    ${this.otherJobs.map(job=>{
+                    ${this.otherJobs.sort(this.sortJobs).map(job=>{
                         return html`
-                            <div class="other-job">
+                            <div @click="${(e)=>this.clickJob(e, job)}" class="other-job">
                                 <div class="company">
                                     ${job.company}
                                 </div>
