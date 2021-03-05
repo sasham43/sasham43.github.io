@@ -388,6 +388,11 @@ class WorkHistory extends Main {
                 }
                 .other-job {
                     margin-top: 2px;
+                    cursor: pointer;
+                }
+                .other-job:hover {
+                    color: black;
+                    border-color: black;
                 }
                 .company,
                 .title,
