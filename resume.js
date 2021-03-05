@@ -50,6 +50,11 @@ class Main extends LitElement {
                     padding-right: 6px;
                 }
             }
+            @media(min-width: 500px) and (max-width: 1500px){
+                .resume {
+                    width: 90%;
+                }
+            }
             
 
 
@@ -59,6 +64,9 @@ class Main extends LitElement {
             }
             my-skills {
                 grid-area: skills;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
             }
             about-me {
                 grid-area: about;
@@ -70,6 +78,7 @@ class Main extends LitElement {
             }
             contact-info {
                 grid-area: contact;
+                display: flex;
             }
 
             .resume-section {
@@ -209,6 +218,10 @@ class Contact extends Main {
                 }
                 a>span {
                     text-decoration: underline;
+                }
+                .contact {
+                    display: flex;
+                    align-items: space-between;
                 }
 
                 .contact-info {
@@ -635,6 +648,9 @@ class JobHistory extends Main {
 class Skills extends Main {
     static get styles(){
         return [super.styles, css`
+            .skills {
+                flex-grow: 1;
+            }
             .skills-container {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
