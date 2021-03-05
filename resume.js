@@ -40,6 +40,8 @@ class Main extends LitElement {
             }
             about-me {
                 grid-area: about;
+                display: flex;
+                align-items: stretch;
             }
             work-history {
                 grid-area: history;
@@ -268,14 +270,9 @@ class About extends Main {
 
     static get styles(){
         return [super.styles,css`
-            // .about-title {
-            //     position: absolute;
-            //     left: calc(50% - 20px);
-            //     top: -12px;
-            //     background-color: white;
-            //     padding-left: 4px;
-            //     padding-right: 4px;
-            // }
+            .about-content {
+                font-size: 18px;
+            }
         `]
     }
 
