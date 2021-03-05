@@ -32,6 +32,28 @@ class Main extends LitElement {
                 padding-bottom: 15px;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
+            @media (max-width: 500px) {
+                
+                .resume {
+                    grid-template-areas:
+                        "header"
+                        "contact"
+                        "skills"
+                        "about"
+                        "history"
+                    ;
+                    // width: 100%;
+                    width: calc(100% - 12px);
+                    margin: 0;
+                    grid-template-columns: 1fr;
+                    padding-left: 6px;
+                    padding-right: 6px;
+                }
+            }
+            
+
+
+
             my-header {
                 grid-area: header;
             }
