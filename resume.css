@@ -16,7 +16,13 @@ body {
     font-family: 'VT323', monospace;
     font-size: 16px;
     color: #eee;
-    background: url(https://www.kaspersky.com/content/en-global/images/repository/resources/governments-the-private-sector-and-users-in-cyberspace-1.jpg);
+    background: black;
+    overflow-x: hidden;
+    /* background: url(https://www.kaspersky.com/content/en-global/images/repository/resources/governments-the-private-sector-and-users-in-cyberspace-1.jpg); */
     /* background: url(https://img.securityinfowatch.com/files/base/cygnus/siw/image/2019/06/bigstock_Digital_Abstract_Technology_Ba_268260136.5cf6b39d90b28.png?auto=format&fit=max&w=1200); */
     /* background: url(https://www.afsa.org/sites/default/files/fsj2018june_02_img01.jpg); */
+}
+.resume-container {
+    z-index: 99;
+    position: relative;
 }
