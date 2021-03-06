@@ -15,15 +15,7 @@ $colors: $cinnabar, $darkorange, $carnelian;
   position:absolute;
   top: 20vh;
   left: -100vw;
-//   z-index: 2;
-//   transform: scale(0.3);
-
-    // left: 50vw;
-
-//   bottom: -100vh;
   transform-style: preserve-3d;
-//   fill: rgba(0,0,0);
-//   fill-opacity: 0;
 }
 
 .hex {
@@ -34,11 +26,6 @@ $colors: $cinnabar, $darkorange, $carnelian;
 }
 .inner-hex {
     transform: scale(0.9) translateX(40px) translateY(38px);
-    // transform: scale(0.90) translateX(10px) translateY(10px);
-    // transform: scale(0.95) translateX() translateY(9%);
-    // position: absolute;
-    // left: calc(50% - 100px);
-    // top: 50%;
 }
 .rect {
     fill-opacity: 0;
@@ -49,17 +36,14 @@ $total: 10;
   $scale:random(2) - .4;
   
   .svg:nth-child(#{$i}){
-    // left:random(120) * 1% - 20;
     top:random(120) * 1% - 20;
-    animation: raise#{$i} 6 + random(15) +s linear infinite;
+    animation: raise#{$i} 15 + random(15) +s linear infinite;
     animation-delay:random(5) - 5 + s;
     transform: scale(.15 * $i - .6) rotate(random(360) + deg);
-    // z-index: $i - 7;
     filter: blur($i - 6 + px);
 
     @keyframes raise#{$i} {
       to{
-    //    bottom:150vh;
         left: 100vw;
        transform: scale(.15 * $i - .6) rotate(random(360) + deg);
       }
