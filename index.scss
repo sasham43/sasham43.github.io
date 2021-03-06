@@ -1,0 +1,41 @@
+$green: #7ceaa4;
+$purple: #3b3d54;
+
+.svg{
+  stroke:$green;
+  stroke-width: 4;
+  position:absolute;
+  top: 20vh;
+  left: -100vw;
+//   bottom: -100vh;
+  transform-style: preserve-3d;
+  fill: rgba(0,0,0);
+  fill-opacity: 0;
+}
+
+.rect {
+    fill-opacity: 0;
+}
+
+$total: 10;
+@for $i from 1 through $total {
+  $scale:random(2) - .4;
+  
+  .svg:nth-child(#{$i}){
+    // left:random(120) * 1% - 20;
+    top:random(120) * 1% - 20;
+    animation: raise#{$i} 6 + random(15) +s linear infinite;
+    animation-delay:random(5) - 5 + s;
+    transform: scale(.3 * $i - .6) rotate(random(360) + deg);
+    z-index: $i - 7;
+    filter: blur($i - 6 + px);
+
+    @keyframes raise#{$i} {
+      to{
+    //    bottom:150vh;
+        left: 100vw;
+       transform: scale(.3 * $i - .6) rotate(random(360) + deg);
+      }
+    }
+  }
+}

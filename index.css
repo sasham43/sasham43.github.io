@@ -1,0 +1,166 @@
+.svg {
+  stroke: #7ceaa4;
+  stroke-width: 4;
+  position: absolute;
+  top: 20vh;
+  left: -100vw;
+  transform-style: preserve-3d;
+  fill: black;
+  fill-opacity: 0;
+}
+
+.rect {
+  fill-opacity: 0;
+}
+
+.svg:nth-child(1) {
+  top: 64%;
+  animation: raise1 21s linear infinite;
+  animation-delay: 0s;
+  transform: scale(-0.3) rotate(14deg);
+  z-index: -6;
+  filter: blur(-5px);
+}
+@keyframes raise1 {
+  to {
+    left: 100vw;
+    transform: scale(-0.3) rotate(306deg);
+  }
+}
+
+.svg:nth-child(2) {
+  top: 32%;
+  animation: raise2 18s linear infinite;
+  animation-delay: -4s;
+  transform: scale(0) rotate(245deg);
+  z-index: -5;
+  filter: blur(-4px);
+}
+@keyframes raise2 {
+  to {
+    left: 100vw;
+    transform: scale(0) rotate(237deg);
+  }
+}
+
+.svg:nth-child(3) {
+  top: 87%;
+  animation: raise3 10s linear infinite;
+  animation-delay: -4s;
+  transform: scale(0.3) rotate(124deg);
+  z-index: -4;
+  filter: blur(-3px);
+}
+@keyframes raise3 {
+  to {
+    left: 100vw;
+    transform: scale(0.3) rotate(166deg);
+  }
+}
+
+.svg:nth-child(4) {
+  top: 16%;
+  animation: raise4 10s linear infinite;
+  animation-delay: -4s;
+  transform: scale(0.6) rotate(11deg);
+  z-index: -3;
+  filter: blur(-2px);
+}
+@keyframes raise4 {
+  to {
+    left: 100vw;
+    transform: scale(0.6) rotate(254deg);
+  }
+}
+
+.svg:nth-child(5) {
+  top: 53%;
+  animation: raise5 15s linear infinite;
+  animation-delay: -4s;
+  transform: scale(0.9) rotate(60deg);
+  z-index: -2;
+  filter: blur(-1px);
+}
+@keyframes raise5 {
+  to {
+    left: 100vw;
+    transform: scale(0.9) rotate(102deg);
+  }
+}
+
+.svg:nth-child(6) {
+  top: 80%;
+  animation: raise6 16s linear infinite;
+  animation-delay: 0s;
+  transform: scale(1.2) rotate(329deg);
+  z-index: -1;
+  filter: blur(0px);
+}
+@keyframes raise6 {
+  to {
+    left: 100vw;
+    transform: scale(1.2) rotate(75deg);
+  }
+}
+
+.svg:nth-child(7) {
+  top: 100%;
+  animation: raise7 11s linear infinite;
+  animation-delay: 0s;
+  transform: scale(1.5) rotate(201deg);
+  z-index: 0;
+  filter: blur(1px);
+}
+@keyframes raise7 {
+  to {
+    left: 100vw;
+    transform: scale(1.5) rotate(47deg);
+  }
+}
+
+.svg:nth-child(8) {
+  top: 75%;
+  animation: raise8 15s linear infinite;
+  animation-delay: 0s;
+  transform: scale(1.8) rotate(190deg);
+  z-index: 1;
+  filter: blur(2px);
+}
+@keyframes raise8 {
+  to {
+    left: 100vw;
+    transform: scale(1.8) rotate(186deg);
+  }
+}
+
+.svg:nth-child(9) {
+  top: -6%;
+  animation: raise9 18s linear infinite;
+  animation-delay: -1s;
+  transform: scale(2.1) rotate(270deg);
+  z-index: 2;
+  filter: blur(3px);
+}
+@keyframes raise9 {
+  to {
+    left: 100vw;
+    transform: scale(2.1) rotate(86deg);
+  }
+}
+
+.svg:nth-child(10) {
+  top: 53%;
+  animation: raise10 19s linear infinite;
+  animation-delay: -1s;
+  transform: scale(2.4) rotate(197deg);
+  z-index: 3;
+  filter: blur(4px);
+}
+@keyframes raise10 {
+  to {
+    left: 100vw;
+    transform: scale(2.4) rotate(325deg);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
