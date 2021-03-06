@@ -40,7 +40,7 @@ $total: 10;
     animation: raise#{$i} 15 + random(15) +s linear infinite;
     animation-delay:random(5) - 5 + s;
     transform: scale(.15 * $i - .6) rotate(random(360) + deg);
-    filter: blur($i - 6 + px);
+    filter: blur($i - 4 + px);
 
     @keyframes raise#{$i} {
       to{
