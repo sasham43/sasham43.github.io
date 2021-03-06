@@ -103,11 +103,7 @@ class Main extends LitElement {
                     0 0 0 10px #000,
                     0 0 0 11px #fff;
             }
-            .education-title,
-            .contact-title,
-            .skills-title,
-            .job-history-title,
-            .about-title {
+            .area-title {
                 position: absolute;
                 // left: calc(50% - 20px);
                 top: -26px;
@@ -120,6 +116,9 @@ class Main extends LitElement {
                 padding: 0 25px;
                 border-radius: 20px;
                 border: solid 3px;
+            }
+            .resume-section:hover .area-title {
+                color: white;
             }
             .education-title {
                 color: var(--education-color);
@@ -236,7 +235,7 @@ class Education extends Main {
     render(){
         return html`
             <div class="education resume-section">
-                <div class="education-title">
+                <div class="education-title area-title">
                     Education
                 </div>
                 <div class="education-info">
@@ -291,7 +290,7 @@ class Contact extends Main {
     render(){
         return html`
             <div class="contact resume-section">
-                <div class="contact-title title-left">
+                <div class="contact-title title-left area-title">
                     Contact
                 </div>
                 <div class="contact-info">
@@ -370,7 +369,7 @@ class About extends Main {
     render(){
         return html`
             <div class="about resume-section">
-                <div class="about-title title-right">
+                <div class="about-title area-title title-right">
                     About
                 </div>
                 <div class="about-content">
@@ -553,7 +552,7 @@ class WorkHistory extends Main {
     render(){
         return html`
             <div class="work-history resume-section">
-                <div class="job-history-title title-right">
+                <div class="job-history-title area-title title-right">
                     Work History
                 </div>
                 <div class="main-job">
@@ -708,7 +707,7 @@ class JobHistory extends Main {
     render(){
         return html`
             <div class="job-history resume-section">
-                <div class="job-history-title title-right">
+                <div class="job-history-title area-title title-right">
                     Work History
                 </div>
                 <div class="job-list">
@@ -757,7 +756,7 @@ class Skills extends Main {
     render() {
         return html`
             <div class="skills resume-section">
-                <div class="skills-title">
+                <div class="skills-title area-title title-left">
                     Skills
                 </div>
                 <div class="skills-body">
