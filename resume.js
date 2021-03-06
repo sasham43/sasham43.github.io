@@ -23,6 +23,7 @@ class Main extends LitElement {
                     "header  header header header"
                     "contact contact about about"
                     "skills skills about about"
+                    "education education about about"
                     "history history history history"
                 ;
                 grid-row-gap: 30px;
@@ -39,6 +40,7 @@ class Main extends LitElement {
                         "header"
                         "contact"
                         "skills"
+                        "education"
                         "about"
                         "history"
                     ;
@@ -82,6 +84,10 @@ class Main extends LitElement {
                 grid-area: contact;
                 display: flex;
             }
+            my-education {
+                grid-area: education;
+                display: flex;
+            }
 
             .resume-section {
                 border: solid 1px black;
@@ -97,6 +103,7 @@ class Main extends LitElement {
                     0 0 0 10px #000,
                     0 0 0 11px #fff;
             }
+            .education-title,
             .contact-title,
             .skills-title,
             .job-history-title,
@@ -114,26 +121,26 @@ class Main extends LitElement {
                 border-radius: 20px;
                 border: solid 3px;
             }
+            .education-title {
+                color: var(--education-color);
+                border-color: var(--education-color);
+            }
             .about-title {
-                // color: #F26419;
                 color: var(--about-color);
                 border-color: var(--about-color);
                 
             }
             .skills-title {
-                // color: #F6AE2D;
                 color: var(--skills-color);
                 border-color: var(--skills-color);
                 
             }
             .contact-title {
-                // color: #86BBD8;
                 color: var(--contact-color);
                 border-color: var(--contact-color);
                 
             }
             .job-history-title {
-                // color: #33658A;
                 color: var(--job-history-color);
                 border-color: var(--job-history-color);
             }
@@ -177,6 +184,16 @@ class Main extends LitElement {
                 border-color: var(--contact-color);
                 background-color: var(--contact-bg-color);
             }
+            .education.resume-section {
+                box-shadow:
+                    0 0 0 3px var(--bg-color),
+                    0 0 0 6px var(--education-color),
+                    0 0 0 9px var(--bg-color),
+                    0 0 0 10px var(--education-color),
+                    0 0 0 11px var(--bg-color);
+                border-color: var(--education-color);
+                background-color: var(--education-bg-color);
+            }
             .work-history.resume-section {
                 box-shadow:
                     0 0 0 3px var(--bg-color),
@@ -196,8 +213,38 @@ class Main extends LitElement {
                 <my-header></my-header>
                 <my-skills></my-skills>
                 <contact-info></contact-info>
-                <about-me></about-me>                
+                <about-me></about-me>           
+                <my-education></my-education>     
                 <work-history></work-history>
+            </div>
+        `
+    }
+}
+
+class Education extends Main {
+    static get styles(){
+        return [
+            super.styles,
+            css`
+                * {
+                    color: black;
+                }
+            `
+        ]
+    }
+
+    render(){
+        return html`
+            <div class="education resume-section">
+                <div class="education-title">
+                    Education
+                </div>
+                <div class="education-info">
+                    <ul>
+                        <li>Certificate of Full Stack Engineering - Prime Digital Academy</li>
+                        <li>Bachelor of Arts - James Madison University</li>
+                    </ul>
+                </div>
             </div>
         `
     }
@@ -742,3 +789,4 @@ customElements.define('job-history', JobHistory)
 customElements.define('work-history', WorkHistory)
 customElements.define('about-me', About)
 customElements.define('contact-info', Contact)
+customElements.define('my-education', Education)

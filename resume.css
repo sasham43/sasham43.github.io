@@ -4,12 +4,14 @@
     --contact-color: #86BBD8;
     --job-history-color: #33658A;
     /* --bg-color: rgba(0,0,0,0.9); */
+    --education-color: #CB769E;
     --bg-color: #171717;
 
     --about-bg-color: #F3712B;
     --skills-bg-color: #F8BD4F;
     --contact-bg-color: #A3CBE1;
     --job-history-bg-color: #4282B3;
+    --education-bg-color: #D289AB;
 }
 body {
     background-color: #eee;
