@@ -392,7 +392,7 @@ class WorkHistory extends Main {
             description: `
                 Design and program user interfaces for multiple web applications (both internal and customer-facing).\n
                 Program back end systems (writing API routes and database queries) to support front-end applications.\n
-                Design and maintain custom backend systems in AWS to support web applications and data processing workflows.\n
+                Design and maintain custom backend systems in AWS to support web applications and data processing workflows (including Lambda and Step Functions).\n
                 Work with product owners to design and implement UI elements.\n
                 Utilize agile workflow methodology to write stories and complete work.`
         }
@@ -529,9 +529,6 @@ class WorkHistory extends Main {
     }
 
     clickJob(e,job){
-        // console.log('selected job', job)
-        // this.otherJobs.push(this.currentJob)
-        // this.otherJobs.splice(job.index, 1, this.currentJob)
         this.otherJobs = this.otherJobs.map(j=>{
             if(j.index == job.index){
                 return this.currentJob
@@ -569,7 +566,6 @@ class WorkHistory extends Main {
                     <div class="description">
                         <ul>
                             ${this.currentJob.description.split(`.\n`).map(d=>{
-                                console.log('d',d)
                                 return html`<li>${d}</li>`
                             })}
                         </ul>
@@ -597,143 +593,7 @@ class WorkHistory extends Main {
     }
 }
 
-class JobHistory extends Main {
-    // static get styles(){
-    //     return [super.styles, css``]
-    // }
-    constructor() {
-        super();
-        this.myArray = [
-            {
-                company: 'TransUnion',
-                start_date: 'Jun 2019',
-                end_date: 'Current',
-                title: 'Software Engineer',
-                description: `Design and program user interfaces for multiple web applications (both internal and customer-facing).\nProgram back end systems (writing API routes and database queries) to support front-end applications.\nDesign and maintain custom backend systems in AWS to support web applications and data processing workflows.`
-            },
-            {
-                company: 'TruSignal',
-                start_date: 'Oct 2016',
-                end_date: 'Jun 2019',
-                title: 'Software Engineer',
-                description: `Design and program user interfaces for multiple web applications (both internal and customer-facing). Program back end systems (writing API routes and database queries) to support front-end applications. Design and maintain custom backend systems in AWS to support web applications and data processing workflows.`
-            },
-            {
-                company: 'RTS Solutionz',
-                start_date: 'Jan 2016',
-                end_date: 'Mar 2016',
-                title: 'A/V Programmer',
-                description: `Programmed Crestron A/V systems for 24 meeting rooms and two large multipurpose rooms. Designed and programmed user interfaces for end users and technical support personnel. Designed and implemented a custom camera tracking system for Cisco VTC platform.`
-            },
-            {
-                company: 'National Capitol Contracting',
-                start_date: 'Jan 2015',
-                end_date: 'May 2015',
-                title: 'A/V Programmer',
-                description: `Designed, programmed, and implemented audiovisual systems for connected rooms (conference rooms, auditoriums, and training centers). Developed user interfaces for both end users and technical staff. Programmed control interfaces for audio, video and teleconferencing equipment. Performed troubleshooting and maintenance on existing systems. Familiarity with both Crestron and AMX systems.`
-            },
-            {
-                company: 'National Capitol Contracting',
-                start_date: 'Apr 2012',
-                end_date: 'Jan 2015',
-                title: 'Multimedia Editor',
-                description: `Acted as an editor for a variety of transcripts, including federal government meetings, court cases, and television interviews. Generated closed captions for videos to meet accessibility standards. Led webcasts for government meetings and trainings including website creation, server creation, and videography.`
-            },
-            {
-                company: 'National Capitol Contracting',
-                start_date: 'Sep 2011',
-                end_date: 'Apr 2012',
-                title: 'Transcriber',
-                description: `
-                    Transcribed a wide variety of digital audio, from federal government meetings to Charlie Rose interviews.\n
-                    Assisted in the creation of closed-caption video files for a variety of content.
-                    Digitized audio and video for dissemination to remote workers.`
-            },
-        ]
-        // this.message = 'Loading';
-        // this.addEventListener('stuff-loaded', (e) => { this.message = e.detail });
-        // this.loadStuff();
-    }
-    static get styles() {
-        return [css`
-            .job-list {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-            .job-list>div:first-child {
-                grid-column: 1 / 3;
-                grid-row: 1 / 3;
-            }
-            .job-list>div:first-child>.description {
-                max-height: 80%;
-            }
-            .job-entry {
-                border: solid 1px #ccc;
-                border-radius: 5px;
-                display: grid;
-                grid-template-rows: 30px 30px 30px 1fr;
-                grid-template-areas:
-                    "company company"
-                    "title title"
-                    "start end"
-                    "description description"
-                ;
-                // width: 300px;
-                margin: 10px;
-                justify-items: center;
-            }
 
-            .company-name {
-                grid-area: company;
-            }
-            .title {
-                grid-area: title;
-            }
-            .start-date {
-                grid-area: start;
-            }
-            .end-date{
-                grid-area: end;
-            }
-            .description {
-                grid-area: description;
-                padding: 4px;
-                max-height: 100px;
-                overflow: scroll;
-            }
-
-        `, super.styles]
-    }
-
-    render(){
-        return html`
-            <div class="job-history resume-section">
-                <div class="job-history-title area-title title-right">
-                    Work History
-                </div>
-                <div class="job-list">
-                    ${this.myArray.map(i => html`<div class="job-entry">
-                        <div class="company-name">
-                            ${i.company}
-                        </div>
-                        <div class="title">
-                            ${i.title}
-                        </div>
-                        <div class="start-date">
-                            ${i.start_date}
-                        </div>
-                        <div class="end-date">
-                            ${i.end_date}
-                        </div>
-                        <div class="description">
-                            ${i.description}
-                        </div>
-                    </div>`)} 
-                </div>
-            </div>
-        `
-    }
-}
 
 
 class Skills extends Main {
@@ -782,10 +642,8 @@ class Skills extends Main {
 }
 
 customElements.define('my-resume', Main)
-customElements.define('my-header', Header);
-customElements.define('my-skills', Skills);
-customElements.define('job-history', JobHistory)
-// customElements.define('job-list', JobList)
+customElements.define('my-header', Header)
+customElements.define('my-skills', Skills)
 customElements.define('work-history', WorkHistory)
 customElements.define('about-me', About)
 customElements.define('contact-info', Contact)
