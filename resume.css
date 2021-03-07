@@ -2,7 +2,8 @@
     --about-color: #F26419;
     --skills-color: #F6AE2D;
     --contact-color: #86BBD8;
-    --job-history-color: #33658A;
+    --job-history-color: #31999B;
+    /* --job-history-color: #33658A; */
     /* --bg-color: rgba(0,0,0,0.9); */
     --education-color: #CB769E;
     --bg-color: #171717;
@@ -10,7 +11,8 @@
     --about-bg-color: #F3712B;
     --skills-bg-color: #F8BD4F;
     --contact-bg-color: #A3CBE1;
-    --job-history-bg-color: #4282B3;
+    --job-history-bg-color: #36A9AB;
+    /* --job-history-bg-color: #3BB8BA; */
     --education-bg-color: #D289AB;
 }
 body {

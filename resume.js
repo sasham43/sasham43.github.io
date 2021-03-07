@@ -140,7 +140,7 @@ class Main extends LitElement {
                 
             }
             .job-history-title {
-                color: var(--job-history-color);
+                color: var(--job-history-bg-color);
                 border-color: var(--job-history-color);
             }
 
@@ -490,6 +490,7 @@ class WorkHistory extends Main {
                     border: solid 2px white;
                     border-radius: 15px;
                     padding: 4px;
+                    color: white;
                 }
                 .other-job {
                     margin-top: 2px;
