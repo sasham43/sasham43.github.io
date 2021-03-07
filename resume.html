@@ -36,12 +36,19 @@
     <link rel="stylesheet" href="resume.css" />
     <link rel="stylesheet" href="index.css" />
 
+    <script>
+        $(window).on("load", function () {
+            // $(".resume-container").animate({ opacity: 1 }, { duration: 40, easing: 'linear'});
+            $(".resume-container").addClass('visible')
+        });        
+    </script>
+
 </head>
 <body>
 
 
 
-    <div class="resume-container">
+    <div id="resume-container" class="resume-container">
         <my-resume></my-resume>
     </div>
 

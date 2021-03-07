@@ -29,4 +29,10 @@ body {
 .resume-container {
     z-index: 99;
     position: relative;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.visible {
+    opacity: 1;
 }
