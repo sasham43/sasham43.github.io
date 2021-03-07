@@ -356,18 +356,14 @@ class About extends Main {
             I've developed video games, built custom hardware, and generated creative ideation in personal projects to explore the limit of dreamscapes.
             I believe a diversity of experience makes one richer, so I dance ballet and play D&D.
         `
-        this.project_blurb = `
-            I built this project in Polymer as a way of introducing myself to the library.  
-            I've been curious about Polymer since I saw a presentation about it at MidwestJS in 2017, where I was also introduced to Vue.
-            This was near the beginning of my journey as a software developer and so I was interested in the juxtaposition of these two front-end frameworks.
-            Vue seemed far more powerful and has gone on to become one of the three biggest front-end Javascript frameworks on the market, and since I started using Vue on a regular basis two years ago, it's easily my favorite.
-            Polymer dropped off the map for me for a while, and I recently discovered that it was still chugging along, promising quick and efficient reusable user interface modules.
-            After building this little page with it, I can say that I would hesitate to use it on a fully featured project, but it is perfect for a more simplified use case.
-            I had fun with it, and I hope Polymer continues to grow.
+        this.project_blurb = `I built this project in Polymer as a way of introducing myself to the library. I've been curious about Polymer since I saw a presentation about it at MidwestJS in 2017, where I was also introduced to Vue. This was near the beginning of my journey as a software developer and so I was interested in the juxtaposition of these two front-end frameworks. Vue seemed far more powerful and has gone on to become one of the three biggest front-end Javascript frameworks on the market, and since I started using Vue on a regular basis two years ago, it's easily my favorite. Polymer dropped off the map for me for a while, and I recently discovered that it was still chugging along, promising quick and efficient reusable user interface modules. After building this little page with it, I can say that I would hesitate to use it on a fully featured project, but it is perfect for a more simplified use case. I had fun with it, and I hope Polymer continues to grow.
         `
 
         this.me_title = 'About Me'
         this.project_title = 'About Project'
+
+        console.log('About This Project\n')
+        console.log(this.project_blurb.replace('.\n', '. '))
 
         // set blurb
         this.blurb = this.me_blurb
