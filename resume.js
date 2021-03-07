@@ -362,8 +362,11 @@ class About extends Main {
         this.me_title = 'About Me'
         this.project_title = 'About Project'
 
-        console.log('About This Project\n')
-        console.log(this.project_blurb.replace('.\n', '. '))
+        // console.log('\x1b[36m%s\x1b[0m', 'About This Project\n')
+        console.log("%c" + 'About This Project', "color:" + 'chartreuse' + ";font-weight:bold;");
+        console.log("%c" + this.project_blurb.replace('.\n', '. '), "color:" + 'chartreuse' + ";");
+        // console.log()
+        // console.log(this.project_blurb.replace('.\n', '. '))
 
         // set blurb
         this.blurb = this.me_blurb
