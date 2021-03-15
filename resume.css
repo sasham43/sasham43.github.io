@@ -3,8 +3,6 @@
     --skills-color: #F6AE2D;
     --contact-color: #86BBD8;
     --job-history-color: #31999B;
-    /* --job-history-color: #33658A; */
-    /* --bg-color: rgba(0,0,0,0.9); */
     --education-color: #CB769E;
     --bg-color: #171717;
 
@@ -12,7 +10,6 @@
     --skills-bg-color: #F8BD4F;
     --contact-bg-color: #A3CBE1;
     --job-history-bg-color: #36A9AB;
-    /* --job-history-bg-color: #3BB8BA; */
     --education-bg-color: #D289AB;
 }
 body {
@@ -22,9 +19,9 @@ body {
     color: #eee;
     background: black;
     overflow-x: hidden;
-    /* background: url(https://www.kaspersky.com/content/en-global/images/repository/resources/governments-the-private-sector-and-users-in-cyberspace-1.jpg); */
-    /* background: url(https://img.securityinfowatch.com/files/base/cygnus/siw/image/2019/06/bigstock_Digital_Abstract_Technology_Ba_268260136.5cf6b39d90b28.png?auto=format&fit=max&w=1200); */
-    /* background: url(https://www.afsa.org/sites/default/files/fsj2018june_02_img01.jpg); */
+    overflow-y: hidden;
+    max-width: 100vw;
+    width: 100vw;
 }
 .resume-container {
     z-index: 99;

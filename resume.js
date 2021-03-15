@@ -1,9 +1,5 @@
-// import { LitElement, html } from 'lit-element'
-// import { html, render } from 'https://unpkg.com/lit-html?module'
 import { LitElement, html, css } from 'https://unpkg.com/lit-element?module';
 import Fontawesome from './fontawesome.js'
-// import { html, render } from './node_modules/lit-html/lit-html.js';
-// import {LitElement} from './node_modules/lit-element/lit-element.js'
 
 class Main extends LitElement {
     static get styles(){
@@ -11,10 +7,7 @@ class Main extends LitElement {
            
 
             .resume {
-                // width: 400px;
                 margin: 10px auto;
-                // background-color: #fff;
-                // background-color: rgba(0,0,0,0.9);
                 background-color: var(--bg-color);
                 border-radius: 15px;
                 width: 50%;
@@ -105,9 +98,7 @@ class Main extends LitElement {
             }
             .area-title {
                 position: absolute;
-                // left: calc(50% - 20px);
                 top: -26px;
-                // background-color: white;
                 background-color: var(--bg-color);
                 padding-left: 4px;
                 padding-right: 4px;
@@ -362,11 +353,8 @@ class About extends Main {
         this.me_title = 'About Me'
         this.project_title = 'About Project'
 
-        // console.log('\x1b[36m%s\x1b[0m', 'About This Project\n')
-        console.log("%c" + 'About This Project', "color:" + 'chartreuse' + ";font-weight:bold;");
-        console.log("%c" + this.project_blurb.replace('.\n', '. '), "color:" + 'chartreuse' + ";");
-        // console.log()
-        // console.log(this.project_blurb.replace('.\n', '. '))
+        console.log("%c" + 'About This Project', "color:" + 'chartreuse' + ";font-weight:bold;")
+        console.log("%c" + this.project_blurb.replace('.\n', '. '), "color:" + 'chartreuse' + ";")
 
         // set blurb
         this.blurb = this.me_blurb
@@ -392,7 +380,6 @@ class About extends Main {
     }
 
     changeAbout(){
-        console.log('change')
         if(this.title == this.me_title){
             this.title = this.project_title
             this.blurb = this.project_blurb
@@ -641,7 +628,6 @@ class Skills extends Main {
             .skills-container {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                // grid-template-rows: 5;
             }
             .skills-container ul {
                 list-style: square;
