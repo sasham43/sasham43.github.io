@@ -373,26 +373,23 @@ class About extends Main {
             .about-content {
                 font-size: 18px;
             }
-            .about-title {
-                cursor: pointer;
-            }
         `]
     }
 
-    changeAbout(){
-        if(this.title == this.me_title){
-            this.title = this.project_title
-            this.blurb = this.project_blurb
-        } else {
-            this.title = this.me_title
-            this.blurb = this.me_blurb
-        }
-    }
+    // changeAbout(){
+    //     if(this.title == this.me_title){
+    //         this.title = this.project_title
+    //         this.blurb = this.project_blurb
+    //     } else {
+    //         this.title = this.me_title
+    //         this.blurb = this.me_blurb
+    //     }
+    // }
 
     render(){
         return html`
             <div class="about resume-section">
-                <div @click="${this.changeAbout}" class="about-title area-title title-right">
+                <div class="about-title area-title title-right">
                     ${this.title}
                 </div>
                 <div class="about-content">
