@@ -53,4 +53,12 @@ $total: 10;
 
     stroke: nth($colors, random(length($colors)));
   }
+
+
+  @media (max-width: 550px) {
+    .svg:nth-child(#{$i}) {
+      transform: none;
+      animation: none;
+    }
+  }
 }
