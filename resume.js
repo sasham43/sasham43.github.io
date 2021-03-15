@@ -216,6 +216,9 @@ class Education extends Main {
         return [
             super.styles,
             css`
+                .education {
+                    flex-grow: 1;
+                }
                 * {
                     color: black;
                 }
