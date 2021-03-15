@@ -343,13 +343,15 @@ class Header extends LitElement {
 class About extends Main {
     constructor(){
         super()
-        this.me_blurb = `
-            As a developer, I utilized my creativity daily to inspire.  
-            I love writing beautiful code that generates beautiful mark-up and beautiful user interfaces.  
-            I like to learn new ways to do things and regularly seek out new solutions in my free time.  
-            I've developed video games, built custom hardware, and generated creative ideation in personal projects to explore the limit of dreamscapes.
-            I believe a diversity of experience makes one richer, so I dance ballet and play D&D.
+        this.me_blurb = `I love programming. I came to it rather late in life so it was not always something I dreamed of doing, but from those first moments copy-pasting VBA macro code in Word and watching a document stitch itself together I was hooked. I’m so fascinated by all the different avenues that are opened to those with a little bit of base knowledge and a desire to learn. I’ve designed AV touch panels, built my own analog VR system, started building a video game, wrote apps for smart watches and iPhones, and I’m still so excited to see what’s next.
         `
+        // this.me_blurb = `
+        //     As a developer, I utilized my creativity daily to inspire.  
+        //     I love writing beautiful code that generates beautiful mark-up and beautiful user interfaces.  
+        //     I like to learn new ways to do things and regularly seek out new solutions in my free time.  
+        //     I've developed video games, built custom hardware, and generated creative ideation in personal projects to explore the limit of dreamscapes.
+        //     I believe a diversity of experience makes one richer, so I dance ballet and play D&D.
+        // `
         this.project_blurb = `I built this project in Polymer as a way of introducing myself to the library. I've been curious about Polymer since I saw a presentation about it at MidwestJS in 2017, where I was also introduced to Vue. This was near the beginning of my journey as a software developer and so I was interested in the juxtaposition of these two front-end frameworks. Vue seemed far more powerful and has gone on to become one of the three biggest front-end Javascript frameworks on the market, and since I started using Vue on a regular basis two years ago, it's easily my favorite. Polymer dropped off the map for me for a while, and I recently discovered that it was still chugging along, promising quick and efficient reusable user interface modules. After building this little page with it, I can say that I would hesitate to use it on a fully featured project, but it is perfect for a more simplified use case. I had fun with it, and I hope Polymer continues to grow.
         `
 
