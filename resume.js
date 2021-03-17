@@ -234,8 +234,8 @@ class Education extends Main {
                 </div>
                 <div class="education-info">
                     <ul>
-                        <li>Certificate of Full Stack Engineering - Prime Digital Academy</li>
-                        <li>Bachelor of Arts - James Madison University</li>
+                        <li>Certificate of Full Stack Engineering - Prime Digital Academy 2016</li>
+                        <li>Bachelor of Arts (History) - James Madison University 2011</li>
                     </ul>
                 </div>
             </div>
