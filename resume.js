@@ -343,7 +343,7 @@ class Header extends LitElement {
 class About extends Main {
     constructor(){
         super()
-        this.me_blurb = `I love programming. I came to it rather late in life so it was not always something I dreamed of doing, but from those first moments copy-pasting VBA macro code in Word and watching a document stitch itself together I was hooked. I’m so fascinated by all the different avenues that are opened to those with a little bit of base knowledge and a desire to learn. I’ve designed AV touch panels, built my own analog VR system, started building a video game, wrote apps for smart watches and iPhones, and I’m still so excited to see what’s next.
+        this.me_blurb = `I love programming. I came to it rather late in life so it was not always something I dreamed of doing, but from those first moments copy-pasting VBA macro code in Word and watching a document stitch itself together I was hooked. I’m so fascinated by all the different avenues that are opened to those with a little bit of base knowledge and a desire to learn. I’ve designed AV touch panels, built my own analog VR system, started building a video game, written apps for smart watches and iPhones, and I’m still so excited to see what’s next.
         `
         // this.me_blurb = `
         //     As a developer, I utilized my creativity daily to inspire.  
