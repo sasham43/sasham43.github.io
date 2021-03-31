@@ -301,7 +301,7 @@ class Contact extends Main {
                         </a>
                     </div>
                     <div>
-                        <a target="_blank" href="https://www.linkedin.com/in/sasha-kramer-69b95231/">
+                        <a target="_blank" href="https://www.linkedin.com/in/sasha-kramer">
                             <i class="fab fa-linkedin"></i>
                             <span>LinkedIn</span>
                         </a>
