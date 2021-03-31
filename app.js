@@ -107,15 +107,9 @@ $(function(){
         case 'metronomLink':
           hoverText = 'metronom'
           break;
-        // case 'dashboardLink':
-        //   hoverText = 'Daily Dashboard';
-        //   break;
-        // case 'busLink':
-        //   hoverText = 'MSP Transit Locator';
-        //   break;
-        // case 'nileLink':
-        //   hoverText = 'Nile of the North';
-        //   break;
+        case 'resumeLink':
+          hoverText = 'Resume'
+          break;
         default:
           hoverText = '<br />';
       }
