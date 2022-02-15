@@ -410,20 +410,46 @@ class WorkHistory extends Main {
         super()
         this.currentJob = {
             index: 0,
-            company: 'TruSignal (acquired) / TransUnion',
-            start_date: 'Oct 2016',
+            company: 'Leesa Sleep',
+            start_date: 'July 2021',
             end_date: 'Current',
             title: 'Full Stack Software Engineer',
             description: `
-                Design and program user interfaces for multiple web applications (both internal and customer-facing).\n
-                Program back end systems (writing API routes and database queries) to support front-end applications.\n
-                Design and maintain custom backend systems in AWS to support web applications and data processing workflows (including Lambda and Step Functions).\n
+                Implement pixel perfect  UI/UX for a high traffic retail website.\n
+                Manage backend connections between a headless CMS, Microsoft Azure, Shopify, and Oracle NetSuite\n
+                Work with product owners to design and implement website components in conjunction with a custom CMS.\n
                 Work with product owners to design and implement UI elements.\n
                 Utilize agile workflow methodology to write stories and complete work.`
         }
+        // this.currentJob = {
+        //     index: 0,
+        //     company: 'TruSignal (acquired) / TransUnion',
+        //     start_date: 'Oct 2016',
+        //     end_date: 'Current',
+        //     title: 'Full Stack Software Engineer',
+        //     description: `
+        //         Design and program user interfaces for multiple web applications (both internal and customer-facing).\n
+        //         Program back end systems (writing API routes and database queries) to support front-end applications.\n
+        //         Design and maintain custom backend systems in AWS to support web applications and data processing workflows (including Lambda and Step Functions).\n
+        //         Work with product owners to design and implement UI elements.\n
+        //         Utilize agile workflow methodology to write stories and complete work.`
+        // }
         this.otherJobs = [
             {
                 index: 1,
+                company: 'TruSignal (acquired) / TransUnion',
+                start_date: 'Oct 2016',
+                end_date: 'July 2021',
+                title: 'Full Stack Software Engineer',
+                description: `
+                    Design and program user interfaces for multiple web applications (both internal and customer-facing).\n
+                    Program back end systems (writing API routes and database queries) to support front-end applications.\n
+                    Design and maintain custom backend systems in AWS to support web applications and data processing workflows (including Lambda and Step Functions).\n
+                    Work with product owners to design and implement UI elements.\n
+                    Utilize agile workflow methodology to write stories and complete work.`
+            },
+            {
+                index: 2,
                 company: 'RTS Solutionz',
                 start_date: 'Jan 2016',
                 end_date: 'Mar 2016',
@@ -434,7 +460,7 @@ class WorkHistory extends Main {
                     Designed and implemented a custom camera tracking system for Cisco VTC platform.`
             },
             {
-                index: 2,
+                index: 3,
                 company: 'National Capitol Contracting',
                 start_date: 'Jan 2015',
                 end_date: 'May 2015',
@@ -447,7 +473,7 @@ class WorkHistory extends Main {
                     Familiarity with both Crestron and AMX systems.`
             },
             {
-                index: 3,
+                index: 4,
                 company: 'National Capitol Contracting',
                 start_date: 'Apr 2012',
                 end_date: 'Jan 2015',
@@ -458,7 +484,7 @@ class WorkHistory extends Main {
                     Led webcasts for government meetings and trainings including website creation, server creation, and videography.`
             },
             {
-                index: 4,
+                index: 5,
                 company: 'National Capitol Contracting',
                 start_date: 'Sep 2011',
                 end_date: 'Apr 2012',
