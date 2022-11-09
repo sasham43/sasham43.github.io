@@ -109,6 +109,8 @@ $(function(){
           break;
         case 'resumeLink':
           hoverText = 'Resume'
+        case 'doorsLink':
+          hoverText = 'Doors 96'
           break;
         default:
           hoverText = '<br />';
