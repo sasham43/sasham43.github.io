@@ -107,8 +107,9 @@ $(function(){
         case 'metronomLink':
           hoverText = 'metronom'
           break;
-        case 'resumeLink':
-          hoverText = 'Resume'
+        case 'vimeoLink':
+          hoverText = 'Video'
+          break;
         case 'doorsLink':
           hoverText = 'Doors 96'
           break;
